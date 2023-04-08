@@ -38,11 +38,12 @@ export default async function handler(req, res) {
     const db = await notion.databases.query({
       database_id: NOTION_DB,
       filter: {
-        property: "publish",
+        property: "pinned",
         checkbox: {
           equals: true,
         },
       },
+      page_size: 6,
     });
 
     const blockIds = db.results.map((post) => post.properties.header_image.url);

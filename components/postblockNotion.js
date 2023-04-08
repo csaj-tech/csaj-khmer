@@ -16,13 +16,10 @@ export default function Postblock({ post }) {
         />
       </Link>
       <div className="relative mt-5">
-        <p className="uppercase font-sans text-xs mb-2.5 text-purple-600">
+        <p className="uppercase font-sans text-xs mb-2.5 text-gray-500">
           {post.date}
         </p>
-        <Link
-          href={`/posts/${post.id}`}
-          className="block mb-3 hover:underline"
-        >
+        <Link href={`/posts/${post.id}`} className="block mb-3 hover:underline">
           <h2 className="text-xl font-bold leading-7 text-center text-black transition-colors duration-200 hover:text-deep-purple-accent-700">
             {post.title}
           </h2>

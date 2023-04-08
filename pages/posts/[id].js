@@ -1,16 +1,12 @@
 import Head from "next/head";
 import Layout from "../../components/layout";
-import { getAllPostIds } from "../../lib/posts";
 import Date from "../../lib/date";
 import Image from "next/image";
-import md from "markdown-it";
-import fs from "fs";
-import matter from "gray-matter";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { Render } from "@9gustin/react-notion-render";
 import "@9gustin/react-notion-render/dist/index.css";
-import ReactLoading from 'react-loading';
+import ReactLoading from "react-loading";
 
 export default function Post() {
   const [postData, setPostData] = useState(null);
@@ -24,12 +20,12 @@ export default function Post() {
     setIsFetching(true);
     try {
       const pageData = await fetch(`/api/get-notion-page-data?id=${id}`);
-      const data2 = await pageData.json();
-      setPostData(data2);
+      const pageMeta = await pageData.json();
+      console.log(pageMeta);
+      setPostData(pageMeta);
       const res = await fetch(`/api/get-notion-page?id=${id}`);
       const pageContent = await res.json();
       setContent(pageContent);
-      
     } catch (error) {
       console.log(error);
     }
@@ -42,7 +38,12 @@ export default function Post() {
     }
   }, [id]);
 
-  if (isFetching) return <div className="flex h-screen items-center justify-center"><ReactLoading type="bars" color="#2563EB" /></div>;
+  if (isFetching)
+    return (
+      <div className="flex h-screen items-center justify-center">
+        <ReactLoading type="bars" color="#2563EB" />
+      </div>
+    );
 
   return (
     <Layout>
@@ -55,6 +56,12 @@ export default function Post() {
         </h1>
         <p>
           Written on <Date dateString={postData.date} />
+        </p>
+        <p>
+          {postData.author && `Written by `}
+          {postData.author && (
+            <span className="font-bold">{postData.author}</span>
+          )}
         </p>
         {postData.image &&
           postData.image.slice(0, 1).map((img) => (

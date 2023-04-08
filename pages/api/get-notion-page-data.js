@@ -11,6 +11,7 @@ export default async function handler(req, res) {
       abstract: post.properties.abstract.rich_text[0].plain_text,
       category: post.properties.category.select.name,
       publish: post.properties.publish.checkbox,
+      author: post.properties.author.rich_text[0]?.plain_text || "Anonymous",
       header_image: post.properties.header_image.url,
     };
     res.status(200).json(page);
