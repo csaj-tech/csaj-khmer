@@ -10,6 +10,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { Render } from "@9gustin/react-notion-render";
 import "@9gustin/react-notion-render/dist/index.css";
+import ReactLoading from 'react-loading';
 
 export default function Post() {
   const [postData, setPostData] = useState(null);
@@ -41,7 +42,7 @@ export default function Post() {
     }
   }, [id]);
 
-  if (isFetching) return <div></div>;
+  if (isFetching) return <div className="flex h-screen items-center justify-center"><ReactLoading type="bars" color="#2563EB" /></div>;
 
   return (
     <Layout>

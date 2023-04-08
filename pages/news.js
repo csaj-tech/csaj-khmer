@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import Postblock from "../components/postblockNotion";
 import { useState, useEffect } from "react";
+import ReactLoading from 'react-loading';
 
 export default function News() {
   const [allPostsData, setAllPostsData] = useState([]);
@@ -25,7 +26,7 @@ export default function News() {
     fetchAllPosts();
   }, []);
 
-  if (isFetching) return <div></div>;
+  if (isFetching) return <div className="flex h-screen items-center justify-center"><ReactLoading type="bars" color="#2563EB" /></div>;
 
   return (
     <Layout title="CSAJ-News">
