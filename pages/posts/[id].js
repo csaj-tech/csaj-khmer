@@ -21,7 +21,6 @@ export default function Post() {
     try {
       const pageData = await fetch(`/api/get-notion-page-data?id=${id}`);
       const pageMeta = await pageData.json();
-      console.log(pageMeta);
       setPostData(pageMeta);
       const res = await fetch(`/api/get-notion-page?id=${id}`);
       const pageContent = await res.json();
