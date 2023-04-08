@@ -5,15 +5,32 @@ const { NOTION_KEY, NOTION_DB } = process.env;
 const notion = new Client({
   auth: NOTION_KEY,
 });
- 
-async function getImageUrlFromNotion(blockIds) {
-  
-  const responsePromises = blockIds.map((blockId) => notion.blocks.retrieve({ block_id: blockId }));
+
+async function getImageUrlFromNotion(blockIds, defaultValue) {
+  const imageUrls = [];
+
+  const responsePromises = blockIds.map(async (blockId) => {
+    try {
+      const response = await notion.blocks.retrieve({ block_id: blockId });
+      return response.image?.file?.url;
+    } catch (error) {
+      console.error(
+        `An error occurred while retrieving image URL for block ID ${blockId}:`,
+        error
+      );
+      return defaultValue;
+    }
+  });
+
   const responses = await Promise.all(responsePromises);
-  const imageUrls = responses
-    .map((response) => response.image?.file?.url) // Optional chaining (requires Node.js v14+ or a transpiler)
-    .filter((url) => url != null);
-    return imageUrls;
+
+  responses.forEach((url) => {
+    if (url != null) {
+      imageUrls.push(url);
+    }
+  });
+
+  return imageUrls;
 }
 
 export default async function handler(req, res) {
@@ -28,13 +45,11 @@ export default async function handler(req, res) {
       },
     });
 
-
     const blockIds = db.results.map((post) => post.properties.header_image.url);
-const imageUrls = await getImageUrlFromNotion(blockIds);
-console.log(imageUrls);
-  
+    const imageUrls = await getImageUrlFromNotion(blockIds, "/logo.jpg");
+    console.log(imageUrls);
+
     const posts = db.results.map((post, index) => {
-      
       return {
         id: post.id,
         date: post.properties.date.date.start,
@@ -54,5 +69,3 @@ console.log(imageUrls);
     res.status(500).json(e);
   }
 }
-
-
