@@ -249,12 +249,3 @@ export default function Home() {
     </Layout>
   );
 }
-
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData().slice(0, 6);
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-}

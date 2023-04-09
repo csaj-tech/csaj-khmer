@@ -1,6 +1,6 @@
 import Layout from "../components/layout";
 import { getSortedColumnsData } from "../lib/columns";
-import Columnblock from "../components/columnblockNotion";
+import ColumnblockNotion from "../components/columnblockNotion";
 import { useState, useEffect } from "react";
 import ReactLoading from "react-loading";
 
@@ -11,7 +11,7 @@ export default function Tips() {
   const fetchAllColumns = async () => {
     setIsFetching(true);
     try {
-      const res = await fetch(`/api/get-notion-db-interviews`);
+      const res = await fetch(`/api/get-notion-db-interviews-pinned`);
       const data = await res.json();
       setAllColumnsData(data);
       console.log(data);
@@ -137,7 +137,7 @@ export default function Tips() {
           <div className="  px-8 py-6 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 lg:py-20 sm:py-16">
             <div className=" grid gap-x-8 gap-y-6 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
               {allColumnsData.map((post) => (
-                <Columnblock
+                <ColumnblockNotion
                   key={post.id}
                   post={{
                     id: post.id,
@@ -154,13 +154,4 @@ export default function Tips() {
       </section>
     </Layout>
   );
-}
-
-export async function getStaticProps() {
-  const allColumnsData = getSortedColumnsData().slice(0, 3);
-  return {
-    props: {
-      allColumnsData,
-    },
-  };
 }

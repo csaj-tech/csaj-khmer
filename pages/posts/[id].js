@@ -53,15 +53,13 @@ export default function Post() {
         <h1 className="text-4xl md:text-5xl font-bold dark:text-blue text-center mb-12">
           {postData.title}
         </h1>
-        <p>
-          Written on <Date dateString={postData.date} />
-        </p>
-        <p>
-          {postData.author && `Written by `}
+        <p>Written on <Date dateString={postData.date} />
+          {postData.author && ` by `}
           {postData.author && (
             <span className="font-bold">{postData.author}</span>
           )}
         </p>
+        
         {postData.image &&
           postData.image.slice(0, 1).map((img) => (
             <div className="relative" width="500" height="500" align="center">
