@@ -12,7 +12,7 @@ export default function ColumnblockNotion({ post }) {
         />
       </a>
       <div className="relative mt-5">
-        <p className="uppercase font-sans text-xs mb-2.5 text-purple-600">
+        <p className="uppercase font-sans text-xs mb-2.5 text-gray-500">
           {post.date}
         </p>
         <a href={`/columns/${post.id}`} className="block mb-3 hover:underline">

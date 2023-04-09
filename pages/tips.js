@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import { getSortedColumnsData } from "../lib/columns";
 import Columnblock from "../components/columnblockNotion";
 import { useState, useEffect } from "react";
+import ReactLoading from "react-loading";
 
 export default function Tips() {
   const [allColumnsData, setAllColumnsData] = useState([]);
@@ -128,22 +129,28 @@ export default function Tips() {
             <a href="/columns">More From Us</a>
           </h1>
         </div>
-        <div className="  px-8 py-6 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 lg:py-20 sm:py-16">
-          <div className=" grid gap-x-8 gap-y-6 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
-            {allColumnsData.map((post) => (
-              <Columnblock
-                key={post.id}
-                post={{
-                  id: post.id,
-                  date: post.date,
-                  title: post.title,
-                  abstract: post.abstract,
-                  image: post.header_image,
-                }}
-              />
-            ))}
+        {isFetching ? (
+          <div className="grid grid-cols-1 justify-items-center items-center text-center">
+            <ReactLoading type="bars" color="#2563EB" />
           </div>
-        </div>
+        ) : (
+          <div className="  px-8 py-6 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 lg:py-20 sm:py-16">
+            <div className=" grid gap-x-8 gap-y-6 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
+              {allColumnsData.map((post) => (
+                <Columnblock
+                  key={post.id}
+                  post={{
+                    id: post.id,
+                    date: post.date,
+                    title: post.title,
+                    abstract: post.abstract,
+                    image: post.header_image,
+                  }}
+                />
+              ))}
+            </div>
+          </div>
+        )}
       </section>
     </Layout>
   );
