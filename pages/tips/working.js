@@ -7,42 +7,193 @@ export default function Tips() {
         <h1 className="text-5xl md:text-6xl lg:text-6xl font-extrabold mb-6 relative text-center text-rose-400">
           Working in Japan
         </h1>
-        <div className="font-sans text-2xl px-10 mx-auto max-w-7xl py-16 text-justify">
 
-          <p className="mb-3 font-light text-black-400 dark:text-black-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-black-900 dark:first-letter:text-black-100 first-letter:mr-3 first-letter:float-left">
-            Japan is a fascinating country with a rich cultural heritage and a thriving economy, making it an attractive destination for international students who are looking to start their careers after graduation. However, the process of finding a job in Japan can be a bit challenging, especially for those who are unfamiliar with the local culture and customs. In this article, we will provide some tips and advice for international students who are looking to work in Japan after graduation.
-          </p>
-          <br />
-          <p className="mb-3 font-light text-black-400 dark:text-black-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-black-900 dark:first-letter:text-black-100 first-letter:mr-3 first-letter:float-left">
-            Research the job market: Before you begin your job search, it is important to research the job market in Japan and to get a good understanding of the industries and companies that are hiring. This information can be found online, through networking, or by speaking to recruiters or alumni. It is also important to research the types of roles and salaries that are typical in your field, as this can help you to determine your expectations and to set your goals.
-          </p>
-          <br />
-          <p className="mb-3 font-light text-black-400 dark:text-black-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-black-900 dark:first-letter:text-black-100 first-letter:mr-3 first-letter:float-left">
-            Improve your language skills: Knowing Japanese is essential for many jobs in Japan, so it is important to continue to develop your language skills after graduation. This can be done through language classes, by practicing with native speakers, or by watching Japanese movies and TV shows. It is also a good idea to take a test of Japanese proficiency, such as the Japanese Language Proficiency Test (JLPT), as this can demonstrate your language skills to potential employers.
-          </p>
-          <br />
-          <p className="mb-3 font-light text-black-400 dark:text-black-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-black-900 dark:first-letter:text-black-100 first-letter:mr-3 first-letter:float-left">
-            Network with locals: Networking is key to finding a job in Japan, and it is important to make connections with people in your field or industry. This can be done through alumni associations, professional organizations, or by attending networking events and career fairs. You can also reach out to former classmates or colleagues to see if they have any job leads or connections.
-          </p>
-          <br />
-          <p className="mb-3 font-light text-black-400 dark:text-black-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-black-900 dark:first-letter:text-black-100 first-letter:mr-3 first-letter:float-left">
-            Update your resume: In Japan, resumes play a significant role in the hiring process, so it is important to make sure that your resume is up-to-date and tailored to the Japanese job market. Make sure to include your Japanese language skills and any relevant experience you have gained while studying in Japan. It is also a good idea to have a Japanese version of your resume, as many companies in Japan prefer to receive resumes in Japanese.
-          </p>
-          <br />
-          <p className="mb-3 font-light text-black-400 dark:text-black-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-black-900 dark:first-letter:text-black-100 first-letter:mr-3 first-letter:float-left">
-            Be prepared for interviews: In Japan, the interview process is often more formal and structured than in other countries, so it is important to be prepared. This may include dressing in business attire, preparing answers to common interview questions, and having a good understanding of the company and the role you are applying for. It is also a good idea to have a list of questions to ask the interviewer, as this shows your interest in the company and your enthusiasm for the role.
-          </p>
-          <br />
-          <p className="mb-3 font-light text-black-400 dark:text-black-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-black-900 dark:first-letter:text-black-100 first-letter:mr-3 first-letter:float-left">
-            Know the job market trends: In Japan, the job market is constantly evolving, so it is important to stay informed about the latest trends and developments in your field or industry. This information can be found through online resources, industry publications, or by speaking to recruiters or HR professionals.
-          </p>
-          <br />
-          <p className="mb-3 font-light text-black-400 dark:text-black-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-black-900 dark:first-letter:text-black-100 first-letter:mr-3 first-letter:float-left">
-            Be patient: The job search process in Japan can be long and competitive, so it is important to be patient and persistent. Don't get discouraged if your first few applications are not successful, and continue to network, improve your skills, and apply for roles that you are interested in.
-          </p>
-          <br />
-          In conclusion, working in Japan after international student life can be a challenging but rewarding experience. By following these tips and being proactive, you can increase your chances of finding a job in Japan and making a successful transition to the working world. Japan is a welcoming country, and the people are friendly and eager to help, so don't be afraid to ask for help or advice when you need it. Good luck, and enjoy your time in Japan!
-        </div>
+        <section>
+                    <div className="flex flex-col max-w-6xl px-3 mx-auto md:px-0 lg:px-8 xl:px-0 md:flex-row py-4">  
+                        <div className="w-full pr-5 mb-6 space-y-1 md:mb-0 md:space-y-4 md:w-4/12 xl:pr-12">
+                            <h2 className="pb-2 text-center text-5xl font-extrabold cursor-pointer lg:text-4xl text-gray-800">Working part-time as a student</h2>
+                        </div>
+
+                        <div className="relative w-full mt-6 overflow-hidden md:mt-1 md:w-9/12">
+                            <div className="w-full space-y-6 pb-8" >
+                                <h3 className="text-2xl font-bold leading-7 text-gray-600">Applying for the work permit</h3>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                In order to be able to work in Japan, it is necessary to apply for a work permit 
+                                (Permission to engage in activity other than that permitted in status of residence previously granted. 
+                                The application form can be downloaded from these links 
+                                <a class="underline dark:text-blue-500 hover:no-underline" href="https://www.moj.go.jp/isa/content/930004124.pdf"> [PDF] </a> or 
+                                <a class="underline dark:text-blue-500 hover:no-underline" href="https://www.moj.go.jp/isa/content/930004125.xlsx"> [Excel] </a>.
+                                </p>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                There are two ways to proceed with the application:
+                                </p>
+                                <ol class="list-inside list-decimal" className='text-justify text-gray-700'>
+                                    <li>Before receiving your residence card: fill out the application form before coming to Japan and give it to the immigration officer at the airport. </li>
+                                    <li>After receiving your residence card: if you already have a residence card but did not receive your work permit, you have to apply for it by filling out the form and submitting it to the immigration bureau. </li>
+                                </ol>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                It is recommended that you apply for a work permit at the airport because if you wait until you receive your residence card and are already in the country, it can take up to a month for the work permit to be issued. Once your work permit is approved, the immigration officer will put a sticker on your passport and stamp the bottom space on the back of your residence card with the work permit stamp. 
+                                Please be aware that your work permit will become invalid once you leave your school, since you will no longer be doing activities related to being a student. Additionally, in order to have this work permit when renewing your residence card, it is necessary to submit the application form to the immigration bureau along with other renewal documents. 
+                                For more information, please visit the Immigration Services Agency of Japan’s dedicated webpage <a class="underline dark:text-blue-500 hover:no-underline" href="https://www.isa.go.jp/en/applications/guide/nyuukokukanri07_00059.html">here</a>.
+                                </p>
+                            </div>
+
+                            <div className="w-full space-y-6 pb-8" >
+                                <h3 className="text-2xl font-bold leading-7 text-gray-600">Working limitations and restricted jobs </h3>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                The maximum working hour as a student is 28 hours a week. 
+                                Moreover, as a student, you are not allowed to partake in jobs related to adult entertainment and sex trade. These types of jobs would include the following:
+                                </p>
+                                <ul class="list-inside list-disc" className='text-justify text-gray-700'>
+                                    <li>Bars (restaurants that serve alcohol are fine)</li>
+                                    <li>Hostess bars or host clubs </li>
+                                    <li>Video game arcades</li>
+                                    <li>Pachinko parlors</li>
+                                    <li>Love hotels</li>
+                                    <li>Adult goods or video stores</li>
+                                    <li>Massage parlors</li>
+                                </ul>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                Please be aware that just working in the same venue is considered illegal even if you do not engage in any kind of inappropriate acts, just working in the same venue is considered illegal therefore you cannot work at these establishments even as a janitor or kitchen staff. 
+                                </p>
+                            </div>
+
+                            <div className="w-full space-y-6 pb-8" >
+                                <h3 className="text-2xl font-bold leading-7 text-gray-600">Possible English-speaking jobs</h3>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                Besides the prohibited employment mentioned above, students can work in any postings from being clerks at convenience stores to private tutoring. However, these jobs usually require that you can communicate in Japanese. For those who cannot speak Japanese, some possible jobs could include being the teaching assistants or research assistants at your university. 
+                                It is also recommended that you take a look at job postings as an English communicator at reputable organizations such as <a class="underline dark:text-blue-500 hover:no-underline" href="https://www.isa.co.jp/recruit/">ISA</a>, <a class="underline dark:text-blue-500 hover:no-underline" href="https://lbejapan.co.jp/recruit/">LBE</a>, or <a class="underline dark:text-blue-500 hover:no-underline" href="https://www.tnews.jp/entries/35477">Tomonokai</a>. 
+                                For other no-Japanese part-time jobs, please have a look at the <a class="underline dark:text-blue-500 hover:no-underline" href="https://jobs.gaijinpot.com/job/index/lang/en">GaijinPot</a> and <a class="underline dark:text-blue-500 hover:no-underline" href="https://www.workjapan.jp/jobseeker/">Work Japan website</a>. 
+                                </p>
+                            </div>
+                            
+                            <div className="w-full space-y-6 pb-8" >
+                                <h3 className="text-2xl font-bold leading-7 text-gray-600">Be aware of scams!</h3>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                There has been an increase in scam activities where people will give you money in exchange for borrowing your personal documents. 
+                                They could use your personal documents to conduct illegal activities so, under no circumstances should you give anything with your name on it to another person. 
+                                These personal documents includes:
+                                </p>
+                                <ul class="list-inside list-disc" className='text-justify text-gray-700'>
+                                    <li>Residence card</li>
+                                    <li>Bank book </li>
+                                    <li>ATM card</li>
+                                    <li>Passport</li>
+                                    <li>Driving license</li>
+                                </ul>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                Organized crime groups also target foreign students to carry out simple tasks in exchange for money such as:
+                                </p>
+                                <ul class="list-inside list-disc" className='text-justify text-gray-700'>
+                                    <li>Withdrawing money using someone else’s ATM card</li>
+                                    <li>Ordering products online using someone else’s information and payment information</li>
+                                    <li>Receiving packages for someone else and giving it to them later</li>
+                                </ul>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                Please be careful and don’t fall for such things. 
+                                There are plenty of ways to make honest money in Japan, so only work with reputable companies. 
+                                If you are unsure about job offers, please don’t hesitate to reach out to us. 
+                                We are more than happy to consult you! You can reach us through our Facebook Page, Telegram Channel, and email. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col max-w-6xl px-3 mx-auto md:px-0 lg:px-8 xl:px-0 md:flex-row py-4">  
+                        <div className="w-full pr-5 mb-6 space-y-1 md:mb-0 md:space-y-4 md:w-4/12 xl:pr-12">
+                            <h2 className="pb-2 text-center text-5xl font-extrabold cursor-pointer lg:text-4xl text-gray-800">Full-time jobs after graduation</h2>
+                        </div>
+
+                        <div className="relative w-full mt-6 overflow-hidden md:mt-1 md:w-9/12">
+                            <div className="w-full space-y-6 pb-8" >
+                                <h3 className="text-2xl font-bold leading-7 text-gray-600">Recruitments</h3>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                When it comes to working in Japan, the most important thing to keep in mind is recruitment. 
+                                Job hunting should start as soon as recruitments are available. 
+                                After all, the early bird catches the worm and Japanese students are early… in fact, Japanese students start job hunting so early it is the norm to secure a posting one year before graduation, not after graduating. 
+                                That is to say, if you are doing your bachelor's degree then you should start your job hunting at the end of your third year. 
+                                If you are in your master's, begin looking for a job posting at the end of your first year. 
+                                So keep an eye out for recruitments and apply as soon as you can! 
+
+                                But where can you seek out recruitments? Well, here are some useful links from our alumni: 
+                                <a class="underline dark:text-blue-500 hover:no-underline" href="https://job.rikunabi.com/2024/">リクナビ</a>, <a class="underline dark:text-blue-500 hover:no-underline" href="https://www.mynavi.jp/">マイナビ</a>, <a class="underline dark:text-blue-500 hover:no-underline" href="https://globalcareer.com/">globalcareer.com</a> and <a class="underline dark:text-blue-500 hover:no-underline" href="https://job.connectiu.com/">job.connectiu</a>.  
+                                Companies are always looking for more human resources through educational institutes so it’s also important to keep up with university news about recruitments as well. 
+                                In fact, some university departments even offer recommendations! 
+                                They also provide guidance on the career and job hunting process so it’s useful to connect with them. 
+                                </p>
+                            </div>
+
+                            <div className="w-full space-y-6 pb-8" >
+                                <h3 className="text-2xl font-bold leading-7 text-gray-600">Knowing Japanese is a huge advantage</h3>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                This is a no-brainer; we are living in Japan, of course knowing Japanese is beneficial. 
+                                So, for those who want to work in Japan, it’s good to take Japanese language courses concurrent with your major! 
+                                Better yet, learn (a bit of) Japanese before you move here. 
+                                It's always helpful to know the language considering the fact that Japanese society as a whole is not very English-friendly. 
+
+                                But don’t be discouraged, there are English-speaking companies out there! 
+                                Big tech companies, international firms, and some startup businesses use English as their primary mode of communication. 
+                                However, you’ll need to actively look for information yourself as it’s not possible to apply to those companies through recruitments. 
+                                </p>
+                            </div>
+
+                            <div className="w-full space-y-6 pb-8" >
+                                <h3 className="text-2xl font-bold leading-7 text-gray-600">Japanese work permit</h3>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                Graduates who are entering the workforce must remember to apply for a work permit or employment visa as the residence card with ‘Student’ status becomes ineffective immediately after graduation. Japan has a lot of different types of work and long-term visas to apply for based on the employment and reason for living in Japan. The type of work visa you need depends on the type of job that you have. 
+                                While requirements may vary from visa to visa, some general requirements when applying for a work permit in Japan are: 
+                                </p>
+                                <ul class="list-inside list-disc" className='text-justify text-gray-700'>
+                                    <li>an offer of employment from a Japanese company</li>
+                                    <li>passport </li>
+                                    <li>visa application form</li>
+                                    <li>photograph</li>
+                                    <li>Certificate of Eligibility (COE)</li>
+                                    <li>CV and original university degrees or certificates (depending on the type of visa) </li>
+                                </ul>
+                            </div>
+                            
+                            <div className="w-full space-y-6 pb-8" >
+                                <h3 className="text-2xl font-bold leading-7 text-gray-600">Certificate of Eligibility</h3>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                The Certificate of Eligibility is an essential document when applying for any Japanese visa. This certificate is issued by the Immigration Services Agency of Japan. You can submit this form either in person or you can mail it. To obtain this certificate, there are some documents you must submit: 
+                                </p>
+                                <ul class="list-inside list-disc" className='text-justify text-gray-700'>
+                                    <li>completed application form</li>
+                                    <li>passport-sized photograph</li>
+                                    <li>filled out and stamped the return envelope.</li>
+                                </ul>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                Again, depending on your employment, there are additional requirements to fulfill. 
+                                For example, those applying for a researcher visa need to provide the following:
+                                </p>
+                                <ul class="list-inside list-disc" className='text-justify text-gray-700'>
+                                    <li>material showing the outline of the recipient organization</li>
+                                    <li>diploma, CV, and other documents certifying your career position</li>
+                                    <li>documentation certifying the activity, its duration, position, and remuneration.</li>
+                                </ul>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                Meanwhile, those in the engineering field will need to show:
+                                </p>
+                                <ul class="list-inside list-disc" className='text-justify text-gray-700'>
+                                    <li>copies of the company registration and a statement of profit and loss of the recipient organization</li>
+                                    <li>materials showing the business substance of the recipient organization</li>
+                                    <li>diploma or a certificate of graduation with a major in the subject regarding the activity for the visa being applied for</li>
+                                    <li>documents certifying your professional career</li>
+                                    <li>documents certifying the activity, its duration, position, and the remuneration.</li>
+                                </ul>
+                                <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
+                                For a complete list of documents required for each Japan work permit visa application form, please visit the <a class="underline dark:text-blue-500 hover:no-underline" href="https://www.isa.go.jp/en/index.html">Japanese government’s website</a>.
+
+                                Once you receive your COE, it’s time to apply for a new residence card and a new chapter of your life awaits you! 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+        
+        </section>
+
       </section>
     </Layout>
   );

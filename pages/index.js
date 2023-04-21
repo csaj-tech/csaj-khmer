@@ -96,31 +96,6 @@ export default function Home() {
       </>
 
       <>
-        <div className="flex item-center justify-center px-16">
-          <div className="hidden grid-cols-3 gap-32 sm:grid">
-            <div className="col-span-1 text-center lg:text-left">
-              <h4 className="text-7xl font-bold tracking-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r from-blue-300 to-blue-500">
-                22
-              </h4>
-              <p className="text-sm font-semibold text-gray-400">Prefectures</p>
-            </div>
-            <div className="col-span-1 text-center lg:text-left">
-              <h4 className="text-7xl font-bold tracking-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r from-blue-300 to-blue-500">
-                147
-              </h4>
-              <p className="text-sm font-semibold text-gray-400">Students</p>
-            </div>
-            <div className="col-span-1 text-center lg:text-left">
-              <h4 className="text-7xl font-bold tracking-tight text-transparent lg:text-7xl bg-clip-text bg-gradient-to-r from-blue-300 to-blue-500">
-                729
-              </h4>
-              <p className="text-sm font-semibold text-gray-400">Alumni</p>
-            </div>
-          </div>
-        </div>
-      </>
-
-      <>
         <section className="w-full py-12 lg:py-12 bg-white">
           <div className="container px-8 mx-auto sm:px-12 lg:px-20">
             <h1 className="mb-3 text-3xl font-bold leading-tight text-center md:text-5xl font-sans text-blue-600">

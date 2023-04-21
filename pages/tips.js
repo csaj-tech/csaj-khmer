@@ -124,17 +124,16 @@ export default function Tips() {
           </div>
         </div>
 
-        <div className="text-center">
-          <h1 className="mb-3 text-5xl font-bold leading-tight text-center md:text-5xl font-sans text-blue-600 py-2">
-            <a href="/columns">More From Us</a>
-          </h1>
-        </div>
+        
         {isFetching ? (
           <div className="grid grid-cols-1 justify-items-center items-center text-center">
             <ReactLoading type="bars" color="#2563EB" />
           </div>
         ) : (
           <div className="  px-8 py-6 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 lg:py-20 sm:py-16">
+            <h1 className="mb-3 text-5xl font-bold leading-tight text-center md:text-5xl font-sans text-blue-600 py-2">
+              <a href="/columns">More From Us</a>
+            </h1>
             <div className=" grid gap-x-8 gap-y-6 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
               {allColumnsData.map((post) => (
                 <ColumnblockNotion
