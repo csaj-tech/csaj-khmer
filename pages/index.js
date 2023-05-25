@@ -132,13 +132,6 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <img
-                  src="/images/partners/lvs.png"
-                  alt="LVS Logo"
-                  className="block object-contain h-56 lg:h-56"
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <img
                   src="/images/partners/sbi.png"
                   alt="SBI Logo"
                   className="block object-contain h-56 lg:h-56"
