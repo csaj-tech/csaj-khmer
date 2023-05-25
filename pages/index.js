@@ -4,6 +4,18 @@ import { getSortedPostsData } from "../lib/posts";
 import { useState, useEffect } from "react";
 import ReactLoading from "react-loading";
 
+import SimpleImageSlider from "react-simple-image-slider";
+
+const images = [
+  { url: "/images/home/HOMEPAGE1.jpg" },
+  { url: "/images/home/HOMEPAGE2.jpg" },
+  { url: "/images/home/HOMEPAGE3.jpg" },
+  { url: "/images/home/HOMEPAGE4.jpg" },
+  { url: "/images/home/HOMEPAGE5.jpg" },
+  { url: "/images/home/HOMEPAGE6.jpg" },
+  { url: "/images/home/HOMEPAGE7.jpg" },
+];
+
 export default function Home() {
   const [allPostsData, setAllPostsData] = useState([]);
   const [isFetching, setIsFetching] = useState(true);
@@ -52,8 +64,15 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="lg:w-1/2 mx-auto">
-              <img src="/images/home/home-2.jpg" className="" />
+            <div>
+              <SimpleImageSlider
+                width={550}
+                height={400}
+                images={images}
+                showBullets={true}
+                showNavs={true}
+                autoPlay={true}
+              />
             </div>
           </div>
         </section>
