@@ -11,9 +11,9 @@ const images = [
   { url: "/images/home/HOMEPAGE2.jpg" },
   { url: "/images/home/HOMEPAGE3.jpg" },
   { url: "/images/home/HOMEPAGE4.jpg" },
-  { url: "/images/home/HOMEPAGE5.jpg" },
-  { url: "/images/home/HOMEPAGE6.jpg" },
-  { url: "/images/home/HOMEPAGE7.jpg" },
+  { url: "/images/home/HOMEPAGE5.JPG" },
+  { url: "/images/home/HOMEPAGE6.JPG" },
+  { url: "/images/home/HOMEPAGE7.JPG" },
 ];
 
 export default function Home() {
