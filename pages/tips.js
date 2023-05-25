@@ -39,13 +39,8 @@ export default function Tips() {
                   <a href="/tips/living"> Living in Japan</a>
                 </h3>
                 <p className="text-lg text-gray-600 text-justify">
-                  Japan is a beautiful country that is steeped in rich history
-                  and culture, and is home to many international students who
-                  come to study and experience the unique blend of traditional
-                  and modern lifestyles. However, moving to a new country can be
-                  an intimidating experience, especially if you are from a
-                  different culture and are not familiar with the local customs
-                  and ways of ...
+                Japanese culture shines among rich East Asian cultures with its unique and fascinating blend of ancient traditions and modern innovations. 
+                Japanese culture, from its distinctive cuisine and tea ceremonies to its ancient arts and poetries, has been shaped by its thousands of years of history and distinctive geography.
                   <a
                     className="text-xl font-sans text-gray-800 font-bold"
                     href="/tips/living"
@@ -57,7 +52,7 @@ export default function Tips() {
               </div>
               <div className="overflow-hidden bg-gray-100 h-96">
                 <img
-                  src="/images/columns/living-in-japan.png"
+                  src="/images/columns/LIVING_IN_JAPAN.png"
                   className="object-cover w-full h-full"
                   alt=""
                 />
@@ -67,7 +62,7 @@ export default function Tips() {
             <div className="grid items-center lg:grid-cols-2">
               <div className="order-last overflow-hidden bg-gray-100 h-96 lg:order-first">
                 <img
-                  src="/images/columns/studying-in-japan.png"
+                  src="/images/columns/STUDYING_IN_JAPAN.png"
                   className="object-cover w-full h-full"
                   alt=""
                 />
@@ -77,12 +72,8 @@ export default function Tips() {
                   <a href="/tips/studying"> Studying in Japan</a>
                 </h3>
                 <p className="text-lg text-left text-gray-600 text-justify">
-                  Japan is a popular destination for international students,
-                  with its rich cultural heritage, advanced technology, and
-                  world-renowned education system. However, studying in a
-                  foreign country can be an intimidating experience, especially
-                  if you are not familiar with the local customs and ways of
-                  life...
+                  Japan is undoubtedly a top destination for pursuing higher education, thanks to its world-class education and renowned universities. 
+                  The country offers a diverse range of academic programs across various fields, making it an ideal destination for students seeking quality education. 
                   <a
                     className="text-xl font-sans text-gray-800 font-bold"
                     href="/tips/studying"
@@ -99,12 +90,9 @@ export default function Tips() {
                   <a href="/tips/working"> Working in Japan</a>
                 </h3>
                 <p className="text-lg text-gray-600">
-                  Japan is a fascinating country with a rich cultural heritage
-                  and a thriving economy, making it an attractive destination
-                  for international students who are looking to start their
-                  careers after graduation. However, the process of finding a
-                  job in Japan can be a bit challenging, especially for those
-                  who are unfamiliar with the local culture and customs...
+                    In order to be able to work in Japan, it is necessary to apply for a work permit 
+                    (Permission to engage in activity other than that permitted in status of residence previously granted. 
+                    The application form can be downloaded from these links...
                   <a
                     className="text-xl font-sans text-gray-800 font-bold"
                     href="/tips/working"
@@ -115,7 +103,7 @@ export default function Tips() {
               </div>
               <div className="bg-gray-100 h-96">
                 <img
-                  src="/images/columns/working-in-japan.png"
+                  src="/images/columns/WORKING_IN_JAPAN.png"
                   className="object-cover w-full h-full"
                   alt=""
                 />
