@@ -67,7 +67,7 @@ export default function Home() {
             <div>
               <SimpleImageSlider
                 width={550}
-                height={400}
+                height={300}
                 images={images}
                 showBullets={true}
                 showNavs={true}
