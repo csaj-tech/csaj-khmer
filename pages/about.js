@@ -1,8 +1,5 @@
 import Layout from "../components/layout";
-import Member from "../components/member";
-import Member1 from "../components/member1";
-
-import FeatureText from "../components/feature";
+import MemberList from "../components/memberlist";
 
 
 export const MISSION = {
@@ -97,16 +94,8 @@ export default function About() {
                     </div>
                 </div>
             </section>
-            
-            <section>
-                    <h2 className="font-sans py-2 text-6xl md:text-6xl lg:text-6xl font-extrabold mb-6 relative text-center text-blue-600">
-                        Structure of CSAJ in 2023
-                    </h2>
-                    <div className="flex max-w-7xl lg:flex-row space-x-24 relative mx-auto py-16 lg:py-16 px-16 lg:px-16 text-xl">
-                        <img src="/images/structures/csaj-2023.png" className="" />
-                    </div>
-            
-            </section>
+
+            <MemberList/>
         </Layout>
     );
 }
