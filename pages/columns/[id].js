@@ -49,7 +49,7 @@ export default function Column() {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article className="propse prose-xl px-48 text-justify font-sans">
+      <article className="propse prose-xl px-12 text-justify font-sans">
         <h1 className="text-4xl md:text-5xl font-bold dark:text-blue text-center mb-12">
           {postData.title}
         </h1>
