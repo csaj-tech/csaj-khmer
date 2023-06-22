@@ -95,7 +95,7 @@ export default function About() {
                 </div>
             </section>
 
-            <MemberList/>
+            <MemberList />
         </Layout>
     );
 }
