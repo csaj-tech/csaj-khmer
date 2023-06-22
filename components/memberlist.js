@@ -4,18 +4,18 @@ export default function MemberList() {
   const leadingMembers = [
     {
         position: 'Vice-President',
-        name: 'Han Sreynet',
-        imageUrl: '/logo.jpg',
+        name: 'Sreynet Han',
+        imageUrl: '/images/structures/2023/han_sreynet.png',
     },
     {
         position: 'President',
-        name: 'Ouch Som Onn',
-        imageUrl: '/logo.jpg',
+        name: 'Som Onn Ouch',
+        imageUrl: '/images/structures/2023/ouch_somonn.png',
     },
     {
       position: 'Vice-President',
-      name: 'Srey Sokuncharia',
-      imageUrl: '/logo.jpg',
+      name: 'Sokuncharia Srey',
+      imageUrl: '/images/structures/2023/srey_sokuncharia.png',
     },
     
     // Add more leading members as needed
@@ -24,12 +24,12 @@ export default function MemberList() {
   const regionalAssociations = [
     {
       position: 'President of CSAK',
-      name: 'Ouch Som Onn',
-      imageUrl: '/logo.jpg',
+      name: 'Som Onn Ouch',
+      imageUrl: '/images/structures/2023/ouch_somonn.png',
     },
     {
         position: 'President of KSAK',
-        name: 'Lim Sathya',
+        name: 'Sathya Lim',
         imageUrl: '/logo.jpg',
     },
     {
@@ -53,71 +53,71 @@ export default function MemberList() {
   const secretariatOfficers = [
     {
         position: 'Secretary',
-        name: 'Seng Vouchleang',
-        imageUrl: '/logo.jpg',
+        name: 'Vouchleang Seng',
+        imageUrl: '/images/structures/2023/seng_vouchleang.png',
     },
     {
         position: 'Secretary',
-        name: 'Sou Yaly',
-        imageUrl: '/logo.jpg',
+        name: 'Yaly Sou',
+        imageUrl: '/images/structures/2023/sou_yaly.png',
     },
     {
         position: 'Secretary',
-        name: 'Snameas Ponhahwatey',
-        imageUrl: '/logo.jpg',
+        name: 'Ponhahwatey Snameas',
+        imageUrl: '/images/structures/2023/snameas_ponhahwatey.png',
     },
     {
         position: 'Accountant',
-        name: 'On Sothida',
-        imageUrl: '/logo.jpg',
+        name: 'Sothida On',
+        imageUrl: '/images/structures/2023/on_sothida.png',
     },
     {
         position: 'Accountant',
-        name: 'Ry Manydine',
-        imageUrl: '/logo.jpg',
+        name: 'Manydine Ry',
+        imageUrl: '/images/structures/2023/ry_manydine.png',
     },
   ];
 
   const committeeChairs = [
     {
       position: 'Chair of Cultural Committee',
-      name: 'Chhoeur Pryalen',
-      imageUrl: '/logo.jpg',
+      name: 'Pryalen Chhoeur',
+      imageUrl: '/images/structures/2023/chhoeur_pryalen.png',
     },
     {
         position: 'Chair of Educational Committee',
-        name: 'Phou Sohearoth',
-        imageUrl: '/logo.jpg',
+        name: 'Sothearoth Phou',
+        imageUrl: '/images/structures/2023/phou_sothearoth.png',
     },
     {
         position: 'Chair of Media and Communication Committee',
-        name: 'Mom Monyratana',
-        imageUrl: '/logo.jpg',
+        name: 'Monyratana Mom',
+        imageUrl: '/images/structures/2023/mom_monyratana.png',
     },
     {
         position: 'Chair of Public Relation Committee',
         name: 'Oudom Oum',
-        imageUrl: '/logo.jpg',
+        imageUrl: '/images/structures/2023/oum_oudom.png',
     },
     {
         position: 'Chair of Student Service Committee',
-        name: 'Sam Vithyea',
-        imageUrl: '/logo.jpg',
+        name: 'Vithyea Sam',
+        imageUrl: '/images/structures/2023/sam_vithyea.png',
     },
     {
         position: 'Chair of Event Planning Committee',
-        name: 'Uk Socheata',
-        imageUrl: '/logo.jpg',
+        name: 'Socheata Uk',
+        imageUrl: '/images/structures/2023/uk_socheata.png',
     },
     {
         position: 'Chair of Information Technology Committee',
-        name: 'Loem Mengsay',
-        imageUrl: '/logo.jpg',
+        name: 'Mengsay Loem',
+        imageUrl: '/images/structures/2023/loem_mengsay.png',
     },
     {
         position: 'Chair of Administrative Committee',
-        name: 'Loch Sokleang',
-        imageUrl: '/logo.jpg',
+        name: 'Sokleang Loch',
+        imageUrl: '/images/structures/2023/loch_sokleang.png',
     },
     // Add more committee chairs as needed
   ];
