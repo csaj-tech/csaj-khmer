@@ -93,7 +93,7 @@ export default function Home() {
         {/* Left column */}
         <div className="w-full md:w-2/3 p-4">
           <h1 className="text-5xl md:text-4xl lg:text-5xl font-sans mb-8 relative text-blue-600 font-bold">Cambodian Students' Association in Japan</h1>
-          <p className="mb-4 font-sans text-justify text-lg">Cambodian Students’ Association in Japan (CSAJ) represents on behalf of the Cambodian students studying in all main regions of Japan, including Kanto, Kansai, Nagoya, Hiroshima, and Kyushu. We aim to build a community of collective support, exchanges of ideas, knowledge and friendship among the Cambodian students in Japan for the social prosperity in general.</p>
+          <p className="mb-4 font-sans text-justify text-2xl">Cambodian Students’ Association in Japan (CSAJ) represents on behalf of the Cambodian students studying in all main regions of Japan, including Kanto, Kansai, Nagoya, Hiroshima, and Kyushu. We aim to build a community of collective support, exchanges of ideas, knowledge and friendship among the Cambodian students in Japan for the social prosperity in general.</p>
             <a href="/about" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Learn More About Us</a>
         </div>
 
