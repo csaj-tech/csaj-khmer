@@ -136,7 +136,11 @@ export default function Tips() {
                 />
               ))}
             </div>
+            <h3 className="mb-3 text-xl font-bold leading-tight text-right font-sans text-blue-600 py-2">
+              <a href="/columns">See more</a>
+            </h3>
           </div>
+          
         )}
       </section>
     </Layout>
