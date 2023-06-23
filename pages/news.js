@@ -67,24 +67,26 @@ export default function News() {
           Our Activities
         </h1>
         <div className="px-8 py-10 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 lg:py-20 sm:py-16">
-          <div className="flex justify-center mb-4">
-            <div className="flex items-center bg-gray-100 rounded-lg p-2 space-x-2">
-              <label>Year:</label>
-              <select className="p-1 rounded bg-white" value={filterYear} onChange={(e) => setFilterYear(e.target.value)}>
-                <option value="">All</option>
-                {yearOptions.map((year) => (
-                  <option key={year} value={year}>{year}</option>
-                ))}
-              </select>
+          <div className="flex justify-center mb-4 bg-gray-100 round-lg">
+            <div className="pl-3">
+              <div className="flex items-center bg-gray-100 rounded-lg p-2 space-x-2">
+                <label>Year:</label>
+                <select className="p-1 rounded bg-white" value={filterYear} onChange={(e) => setFilterYear(e.target.value)}>
+                  <option value="">All</option>
+                  {yearOptions.map((year) => (
+                    <option key={year} value={year}>{year}</option>
+                  ))}
+                </select>
 
-              <label>Month:</label>
-              <select className="p-1 rounded bg-white" value={filterMonth} onChange={(e) => setFilterMonth(e.target.value)}>
-                <option value="">All</option>
-                {monthOptions.map((month) => (
-                  <option key={month} value={month}>{month}</option>
-                ))}
-              </select>
-              <button className="px-2 py-1 rounded bg-blue-600 text-white" onClick={() => paginate(1)}>Filter</button>
+                <label>Month:</label>
+                <select className="p-1 rounded bg-white" value={filterMonth} onChange={(e) => setFilterMonth(e.target.value)}>
+                  <option value="">All</option>
+                  {monthOptions.map((month) => (
+                    <option key={month} value={month}>{month}</option>
+                  ))}
+                </select>
+
+              </div>
             </div>
           </div>
           <div className=" grid gap-x-8 gap-y-12 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
