@@ -6,9 +6,10 @@ import ReactLoading from "react-loading";
 export default function Columns() {
   const [allColumnsData, setAllColumnsData] = useState([]);
   const [isFetching, setIsFetching] = useState(true);
+  const [oldestYear, setOldestYear] = useState((new Date()).getFullYear());
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(10); // Change this as per requirement
+  const [postsPerPage] = useState(10);
 
   const [filterYear, setFilterYear] = useState("");
   const [filterMonth, setFilterMonth] = useState("");
@@ -18,6 +19,11 @@ export default function Columns() {
     try {
       const res = await fetch(`/api/get-notion-db-interviews`);
       const data = await res.json();
+      // Determine the year of the oldest post
+      const minYear = data.reduce((min, p) => {
+        return (new Date(p.date)).getFullYear() < min ? (new Date(p.date)).getFullYear() : min
+      }, (new Date()).getFullYear());
+      setOldestYear(minYear);
       setAllColumnsData(data);
       console.log(data);
     } catch (error) {
@@ -45,10 +51,10 @@ export default function Columns() {
 
   // Generate year options dynamically
   const currentYear = new Date().getFullYear();
-  const yearOptions = Array.from({ length: 5 }, (_, index) => currentYear - index); // past 5 years
+  const yearOptions = Array.from({ length: currentYear - oldestYear + 1 }, (_, index) => currentYear - index);
 
   // Generate month options dynamically
-  const monthOptions = Array.from({ length: 12 }, (_, index) => index + 1); // 12 months
+  const monthOptions = Array.from({ length: 12 }, (_, index) => index + 1);
 
   useEffect(() => {
     fetchAllColumns();
