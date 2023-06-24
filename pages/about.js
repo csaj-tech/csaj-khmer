@@ -23,51 +23,51 @@ export const VALUE = {
 export default function About() {
     return (
         <Layout title="CSAJ-About Us">
-            <h1 className="font-sans py-12 text-6xl md:text-6xl lg:text-6xl font-extrabold mb-6 relative text-center text-blue-600">
+            <h1 className="font-sans py-12 text-[42px] md:text-6xl lg:text-6xl font-extrabold mb-6 relative text-center text-blue-600">
                 Cambodian Students' Association in Japan
             </h1>
 
             <section>
                 <div className="flex flex-col max-w-6xl px-3 mx-auto md:px-0 lg:px-8 xl:px-0 md:flex-row py-4">
                     <div className="w-full pr-5 mb-6 space-y-1 md:mb-0 md:space-y-4 md:w-4/12 xl:pr-12">
-                        <h2 className="pb-2 text-5xl font-extrabold cursor-pointer lg:text-4xl text-gray-800">Our History</h2>
+                        <h2 className="pb-2 text-center md:text-left text-4xl md:max-flex md:max-justify-center font-extrabold cursor-pointer lg:text-4xl text-gray-800">Our History</h2>
                     </div>
 
                     <div className="relative w-full mt-6 overflow-hidden md:mt-1 md:w-9/12">
                         <div className="w-full space-y-6" >
-                            <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
-                            Cambodian Students&#39; Association in Japan (CSAJ) was founded in 1994 by a group of
-                            Cambodian MEXT Scholarship students studying in various universities across Japan.
-                            The association was established to provide a platform for Cambodian students in Japan
-                            to come together, share their experiences, and support each other.
-                            Initially, the CSAJ was a small organization with a limited number of members. However,
-                            over the years, it has grown in size and scope, and today it is a thriving community of
-                            Cambodian students and graduates in Japan.
-                            Today, CSAJ has become an important voice for Cambodian students in Japan,
-                            advocating for their interests and concerns. It continues to be an active and dynamic
-                            organization, dedicated to promoting friendship and understanding between Japan and
-                            Cambodia.
+                            <p className="text-lg text-center font-normal leading-none text-gray-700 md:text-lg md:text-justify">
+                                Cambodian Students&#39; Association in Japan (CSAJ) was founded in 1994 by a group of
+                                Cambodian MEXT Scholarship students studying in various universities across Japan.
+                                The association was established to provide a platform for Cambodian students in Japan
+                                to come together, share their experiences, and support each other.
+                                Initially, the CSAJ was a small organization with a limited number of members. However,
+                                over the years, it has grown in size and scope, and today it is a thriving community of
+                                Cambodian students and graduates in Japan.
+                                Today, CSAJ has become an important voice for Cambodian students in Japan,
+                                advocating for their interests and concerns. It continues to be an active and dynamic
+                                organization, dedicated to promoting friendship and understanding between Japan and
+                                Cambodia.
                             </p>
                         </div>
                     </div>
                 </div>
-            
+
                 <div className="flex flex-col max-w-6xl px-3 mx-auto md:px-0 lg:px-8 xl:px-0 md:flex-row  py-4">
                     <div className="w-full pr-5 mb-6 space-y-1 md:mb-0 md:space-y-4 md:w-4/12 xl:pr-12">
-                        <h2 className="pb-2 text-5xl font-extrabold cursor-pointer lg:text-4xl text-gray-800">Our Work</h2>
+                        <h2 className="pb-2 text-center md:text-left text-4xl font-extrabold cursor-pointer lg:text-4xl text-gray-800">Our Work</h2>
                     </div>
 
                     <div className="relative w-full mt-6 overflow-hidden md:mt-1 md:w-9/12">
                         <div className="w-full space-y-6" >
-                            <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
-                            Currently, CSAJ has played an important role in promoting cultural exchange and
-                            strengthening the relationship between Japan and Cambodia. The association regularly
-                            organizes events and activities that showcase Cambodian culture and tradition, such as
-                            Khmer New Year, traditional dance performances, and lectures about Cambodia to
-                            Japanese students.
-                            In addition to promoting cultural exchange, CSAJ also provides support and assistance
-                            to Cambodian students in Japan. The association offers academic and career advice,
-                            joint job-hunting seminars with companies, and networking opportunities to its members.
+                            <p className="text-lg text-center font-normal leading-none text-gray-700 md:text-lg md:text-justify">
+                                Currently, CSAJ has played an important role in promoting cultural exchange and
+                                strengthening the relationship between Japan and Cambodia. The association regularly
+                                organizes events and activities that showcase Cambodian culture and tradition, such as
+                                Khmer New Year, traditional dance performances, and lectures about Cambodia to
+                                Japanese students.
+                                In addition to promoting cultural exchange, CSAJ also provides support and assistance
+                                to Cambodian students in Japan. The association offers academic and career advice,
+                                joint job-hunting seminars with companies, and networking opportunities to its members.
                             </p>
                         </div>
                     </div>
@@ -75,15 +75,15 @@ export default function About() {
 
                 <div className="flex flex-col max-w-6xl px-3 mx-auto md:px-0 lg:px-8 xl:px-0 md:flex-row  pt-4 pb-16">
                     <div className="w-full pr-5 mb-6 space-y-1 md:mb-0 md:space-y-4 md:w-4/12 xl:pr-12">
-                        <h2 className="pb-2 text-5xl font-extrabold cursor-pointer lg:text-4xl text-gray-800">Our Structure</h2>
+                        <h2 className="pb-2 text-center md:text-left text-4xl font-extrabold cursor-pointer lg:text-4xl text-gray-800">Our Structure</h2>
                     </div>
 
                     <div className="relative w-full mt-6 overflow-hidden md:mt-1 md:w-9/12">
                         <div className="w-full space-y-6 text-gray-700" >
-                            <p className="text-base font-normal leading-none text-gray-700 md:text-lg text-justify">
-                            Cambodian Students’ Association in Japan (CSAJ) consists of 5 regional associations:
+                            <p className="text-lg text-center font-normal leading-none text-gray-700 md:text-lg md:text-justify">
+                                Cambodian Students’ Association in Japan (CSAJ) consists of 5 regional associations:
                             </p>
-                            <ul class="list-inside list-decimal">
+                            <ul class="text-lg list-inside list-decimal">
                                 <li>Cambodian Students’ Association in Kanto (CSAK)</li>
                                 <li>Cambodian Students Association in Nagoya (CSAN)</li>
                                 <li>Khmer Student Association in Kansai (KSAK)</li>
