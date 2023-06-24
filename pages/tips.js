@@ -40,7 +40,7 @@ export default function Tips() {
                 </h3>
                 <p className="text-lg text-gray-600 text-left md:text-justify pb-5 md:pb-0">
                   Japanese culture shines among rich East Asian cultures with its unique and fascinating blend of ancient traditions and modern innovations.
-                  Japanese culture, from its distinctive cuisine and tea ceremonies to its ancient arts and poetries, has been shaped by its thousands of years of history and distinctive geography.
+                  Japanese culture, from its distinctive cuisine and tea ceremonies to its ancient arts and poetries, has been shaped by its thousands of years of history and distinctive geography...
                   <a
                     className="text-xl font-sans text-gray-800 font-bold"
                     href="/tips/living"
@@ -73,7 +73,7 @@ export default function Tips() {
                 </h3>
                 <p className="text-lg text-left text-gray-600 md:text-justify pb-5 md:pb-0">
                   Japan is undoubtedly a top destination for pursuing higher education, thanks to its world-class education and renowned universities.
-                  The country offers a diverse range of academic programs across various fields, making it an ideal destination for students seeking quality education.
+                  The country offers a diverse range of academic programs across various fields, making it an ideal destination for students seeking quality education...
                   <a
                     className="text-xl font-sans text-gray-800 font-bold"
                     href="/tips/studying"
@@ -122,7 +122,7 @@ export default function Tips() {
             <h1 className="mb-3 text-4xl font-bold leading-tight text-center md:text-5xl font-sans text-red-600 py-5 md:py-2">
               <a href="/columns">More From Us</a>
             </h1>
-            <div className=" grid gap-x-8 gap-y-6 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
+            {/* <div className=" grid gap-x-8 gap-y-6 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
               {allColumnsData.map((post) => (
                 <ColumnblockNotion
                   key={post.id}
@@ -135,7 +135,7 @@ export default function Tips() {
                   }}
                 />
               ))}
-            </div>
+            </div> */}
             <h3 className="mb-3 text-xl font-bold leading-tight text-right font-sans text-blue-600 py-2">
               <a href="/columns">See more</a>
             </h3>
