@@ -92,10 +92,10 @@ export default function Home() {
         <div className="flex flex-col md:flex-row">
           {/* Left column */}
           <div className="w-full md:w-2/3 px-16">
-            <h1 className="text-3xl md:text-4xl lg:text-4xl font-sans mb-8 relative text-blue-600 font-bold">Cambodian Students' Association in Japan</h1>
-            <p className="mb-4 font-sans text-base md:text-xl  lg:text-2xl text-justify">Cambodian Students’ Association in Japan (CSAJ) represents on behalf of the Cambodian students studying in all main regions of Japan, including Kanto, Kansai, Nagoya, Hiroshima, and Kyushu. We aim to build a community of collective support, exchanges of ideas, knowledge and friendship among the Cambodian students in Japan for the social prosperity in general.</p>
+            <h1 className="text-4xl text-center md:text-4xl lg:text-5xl md:text-left font-sans mb-8 relative text-blue-600 font-bold">Cambodian Students' Association in Japan</h1>
+            <p className="mb-4 font-sans text-left text-lg md:text-xl  lg:text-xl md:text-justify">Cambodian Students’ Association in Japan (CSAJ) represents on behalf of the Cambodian students studying in all main regions of Japan, including Kanto, Kansai, Nagoya, Hiroshima, and Kyushu. We aim to build a community of collective support, exchanges of ideas, knowledge and friendship among the Cambodian students in Japan for the social prosperity in general.</p>
             <div className="mt-10">
-              <a href="/about" className="bg-blue-500 text-white px-8 py-4 rounded text-xl hover:bg-blue-600">Learn More About Us</a>
+              <a href="/about" className="bg-blue-500 text-white px-6 py-4 rounded text-xl hover:bg-blue-600">Learn More About Us</a>
 
             </div>
           </div>
@@ -175,7 +175,7 @@ export default function Home() {
 
             <div className="flex flex-wrap justify-center">
               {logos.map((logo, idx) => (
-                <div key={idx} className="m-2">
+                <div key={idx} className="m-2 flex justify-center">
                   <div className="p-4 flex items-center justify-center space-x-12 bg-white rounded-md">
                     <Image
                       src={logo}
@@ -189,10 +189,10 @@ export default function Home() {
             </div>
 
 
-            <div className="p-4 md:p-8 bg-white rounded-lg text-center">
-              <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4">Support Us</h2>
+            <div className="p-4 mt-10 md:p-8 bg-white rounded-lg text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-8">Support Us</h2>
               <div className="mb-4">
-                <p className="font-sans text-justify text-lg">
+                <p className="font-sans text-left md:text-justify text-lg">
                   The Cambodian Students’ Association of Japan (CSAJ) is an
                   association composed entirely of Cambodians pursuing academia in
                   Japan. As we are a nonprofit organization, we require
@@ -212,7 +212,7 @@ export default function Home() {
 
             <div className="p-4 md:p-8 bg-white rounded-lg text-center">
               <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4">Available Resources</h2>
-              <div className="py-6 font-sans text-justify text-lg">
+              <div className="py-6 font-sans text-left md:text-justify text-lg">
                 <p>
                   Feature your logos and links on our website, social media
                   platforms, as well as posters and mailing lists. Join us in
@@ -221,10 +221,11 @@ export default function Home() {
                   parties, and year end parties. Reach out to international
                   communities in Japan through the favorable word-of-mouth of
                   Cambodian students about your goods and services. Broaden your
-                  scope to communities abroad through our members and alumni. Our
-                  tools include:
+                  scope to communities abroad through our members and alumni.
+
                 </p>
-                <ul className="list-inside list-decimal">
+                <p className="whitespace-pre-line"> Our tools include:</p>
+                <ul className="list-inside list-decimal ">
                   <li>
                     {" "}
                     <b>Newsletter</b>: 440 subscription with average readership of
