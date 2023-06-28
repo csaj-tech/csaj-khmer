@@ -50,7 +50,7 @@ export default function Post() {
         <title>{postData.title}</title>
       </Head>
       <article className="propse prose-xl px-12 text-justify font-sans">
-        <h1 className="text-4xl md:text-5xl font-bold dark:text-blue text-center mb-12">
+        <h1 className="text-3xl md:text-5xl font-bold dark:text-blue text-center mb-12 flex-justify">
           {postData.title}
         </h1>
         <p>Written on <Date dateString={postData.date} />
@@ -59,7 +59,7 @@ export default function Post() {
             <span className="font-bold">{postData.author}</span>
           )}
         </p>
-        
+
         {postData.image &&
           postData.image.slice(0, 1).map((img) => (
             <div className="relative" width="500" height="500" align="center">

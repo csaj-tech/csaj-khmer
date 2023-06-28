@@ -17,30 +17,30 @@ export default function Post({ postData, content }) {
         <h1 className="text-4xl md:text-5xl font-bold dark:text-blue text-center mb-12">{postData.title}</h1>
         <p>Written on <Date dateString={postData.date} /></p>
         {postData.image && postData.image.slice(0, 1).map((img) => (
-        <div className='relative' width='500' height='500' align='center'>
-          <Image
-            alt={postData.title}
-            src={img}
-            unoptimized={true}
-            height={500}
-            width={800}
-            intrinsic
-          />
-        </div>
-      ))}
+          <div className='relative' width='500' height='500' align='center'>
+            <Image
+              alt={postData.title}
+              src={img}
+              unoptimized={true}
+              height={500}
+              width={800}
+              intrinsic
+            />
+          </div>
+        ))}
         <br />
         <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-        {postData.image && postData.image.slice(1, ).map((img) => (
-        <div className='relative' width='500' height='500' align='center'>
-          <Image
-            alt={postData.title}
-            src={img}
-            unoptimized={true}
-            height={500}
-            width={800}
-            intrinsic
-          />
-        </div>
+        {postData.image && postData.image.slice(1,).map((img) => (
+          <div className='relative' width='500' height='500' align='center'>
+            <Image
+              alt={postData.title}
+              src={img}
+              unoptimized={true}
+              height={500}
+              width={800}
+              intrinsic
+            />
+          </div>
         ))}
       </article>
 
