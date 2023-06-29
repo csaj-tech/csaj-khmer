@@ -113,7 +113,7 @@ export default function Tips() {
         </div>
 
 
-        {/* {isFetching ? (
+        {isFetching ? (
           <div className="grid grid-cols-1 justify-items-center items-center text-center">
             <ReactLoading type="bars" color="#2563EB" />
           </div>
@@ -141,7 +141,7 @@ export default function Tips() {
             </h3>
           </div>
 
-        )} */}
+        )}
       </section>
     </Layout>
   );
