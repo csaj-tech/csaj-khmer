@@ -49,7 +49,7 @@ export default function Post() {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article className="propse prose-xl px-12 text-justify font-sans">
+      <article className="propse prose-xl pt-12 px-12 text-justify font-sans">
         <h1 className="text-3xl md:text-5xl font-bold dark:text-blue text-center mb-12 flex-justify">
           {postData.title}
         </h1>
