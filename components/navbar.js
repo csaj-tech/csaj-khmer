@@ -2,45 +2,45 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 
 export default function Navbar() {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-    return (
-        <nav className="flex items-center justify-between p-10 bg-white mb-15">
-            {/* Logo */}
-            <a href='/'>
-                <img src="/logo.jpg" alt="Logo" width={128} height={64} />
-            </a>
+  return (
+    <>
+      <nav className="w-full z-10 flex items-center justify-between p-6 bg-white">
+        {/* Logo */}
+        <div className="flex justify-center w-full md:w-auto">
+          <a href='/'>
+            <img src="/logo.png" alt="Logo" width={128} height={64} />
+          </a>
+        </div>
 
-            {/* Navigation menu for larger screens */}
+        {/* Navigation menu for larger screens */}
+        <div className="hidden md:flex space-x-12 text-4xl font-semibold">
+          <a href="/"className="text-red-400 hover:text-red-600">Home</a>
+          <a href="/news"className="text-red-400 hover:text-red-600">News</a>
+          <a href="/tips"className="text-red-400 hover:text-red-600">Life in Japan</a>
+          <a href="/about"className="text-red-400 hover:text-red-600">About Us</a>
+          <a href="https://forms.gle/UYriTnL1JzHnPzyU6" className="text text-blue-700 hover:text-blue-900">Join Us</a>
+        </div>
+      </nav>
 
-            <div className="hidden md:flex space-x-12 text-4xl font-semibold">
+      {/* Floating button for smaller screens */}
+      <button className="fixed top-5 right-5 h-12 w-12 rounded-full z-20 bg-blue-500 text-white flex items-center justify-center md:hidden" onClick={() => setIsOpen(!isOpen)}>
+        <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
 
-                <a href="/" className="text-red-400 hover:text-red-600 text-4xl">Home</a>
-                <a href="/news" className="text-red-400 hover:text-red-600 text-4xl">News</a>
-                <a href="/tips" className="text-red-400 hover:text-red-600 text-4xl">Life in Japan</a>
-                <a href="/about" className="text-red-400 hover:text-red-600 text-4xl">About Us</a>
-                <a href="https://forms.gle/UYriTnL1JzHnPzyU6" className="text text-blue-700 hover:text-blue-900 text-4xl">Join Us</a>
-
-            </div>
-            {/* Dropdown menu button for smaller screens */}
-            <button className="md:hidden flex items-center" onClick={() => setIsOpen(!isOpen)}>
-                <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-            </button>
-
-            {/* Dropdown menu for smaller screens */}
-            {isOpen && (
-                <div className="md:hidden flex-down">
-                    <div className=" p-0">
-                        <a href="/" className="block py-1 text-red-400 hover:text-red-600 text-2xl">Home</a>
-                        <a href="/news" className="block py-1 text-red-400 hover:text-red-600 text-2xl">News</a>
-                        <a href="/tips" className="block py-1 text-red-400 hover:text-red-600 text-2xl">Life in Japan</a>
-                        <a href="/about" className="block py-1 text-red-400 hover:text-red-600 text-2xl">About Us</a>
-                        <a href="https://forms.gle/UYriTnL1JzHnPzyU6" className="block py-1 text-blue-700 hover:text-blue-900 text-2xl">Join Us</a>
-                    </div>
-                </div>
-            )}
-        </nav>
-    );
+      {/* Menu for smaller screens */}
+      {isOpen && (
+        <div className="fixed top-20 right-5 w-64 bg-white shadow-md p-5 rounded-lg z-20 md:hidden">
+          <a href="/" className="block py-1 text-red-400 hover:text-red-600 text-2xl">Home</a>
+          <a href="/news" className="block py-1 text-red-400 hover:text-red-600 text-2xl">News</a>
+          <a href="/tips" className="block py-1 text-red-400 hover:text-red-600 text-2xl">Life in Japan</a>
+          <a href="/about" className="block py-1 text-red-400 hover:text-red-600 text-2xl">About Us</a>
+          <a href="https://forms.gle/UYriTnL1JzHnPzyU6" className="block py-1 text-blue-700 hover:text-blue-900 text-2xl">Join Us</a>
+        </div>
+      )}
+    </>
+  );
 }

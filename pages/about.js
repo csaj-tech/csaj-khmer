@@ -24,8 +24,6 @@ export default function About() {
     return (
         <Layout title="CSAJ-About Us">
             <h1 className="font-sans leading-none py-12 text-[42px] md:text-6xl lg:text-6xl font-extrabold pt-0 md:pt-9 mb-6 relative text-center text-blue-600">
-                Cambodian Students' Association in Japan
-            </h1>
 
             <section>
                 <div className="flex flex-col max-w-6xl px-3 mx-auto md:px-0 lg:px-8 xl:px-0 md:flex-row py-4">

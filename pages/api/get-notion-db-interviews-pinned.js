@@ -47,7 +47,7 @@ export default async function handler(req, res) {
     });
 
     const blockIds = db.results.map((post) => post.properties.header_image.url);
-    const imageUrls = await getImageUrlFromNotion(blockIds, "/logo.jpg");
+    const imageUrls = await getImageUrlFromNotion(blockIds, "/logo.png");
 
     const posts = db.results.map((post, index) => {
       return {
