@@ -23,11 +23,8 @@ export const VALUE = {
 export default function About() {
     return (
         <Layout title="CSAJ-About Us">
-            {/*
-            <h1 className="font-sans py-12 text-[42px] md:text-6xl lg:text-6xl font-extrabold pt-0 md:pt-9 mb-6 relative text-center text-blue-600">
-                Cambodian Students' Association in Japan
+            <h1 className="font-sans leading-none py-12 text-[42px] md:text-6xl lg:text-6xl font-extrabold pt-0 md:pt-9 mb-6 relative text-center text-blue-600">Cambodian Students' Association in Japan
             </h1>
-            */}
 
             <section>
                 <div className="flex flex-col max-w-6xl px-3 mx-auto md:px-0 lg:px-8 xl:px-0 md:flex-row py-4">
@@ -37,7 +34,7 @@ export default function About() {
 
                     <div className="relative w-full px-5 mt-6 overflow-hidden md:px-0 md:mt-1 md:w-9/12">
                         <div className="w-full space-y-6" >
-                            <p className="text-lg text-gray-600 text-left leading-1 md:text-lg md:text-justify">
+                            <p className="text-lg text-gray-600 text-left leading-[20px] md:text-lg md:text-justify">
                                 Cambodian Students&#39; Association in Japan (CSAJ) was founded in 1994 by a group of
                                 Cambodian MEXT Scholarship students studying in various universities across Japan.
                                 The association was established to provide a platform for Cambodian students in Japan
@@ -61,7 +58,7 @@ export default function About() {
 
                     <div className="relative w-full px-5 md:px-0 mt-6 overflow-hidden md:mt-1 md:w-9/12">
                         <div className="w-full space-y-6" >
-                            <p className="text-lg text-gray-600 text-left leading-1 md:text-lg md:text-justify">
+                            <p className="text-lg text-gray-600 text-left leading-[20px] md:text-lg md:text-justify">
                                 Currently, CSAJ has played an important role in promoting cultural exchange and
                                 strengthening the relationship between Japan and Cambodia. The association regularly
                                 organizes events and activities that showcase Cambodian culture and tradition, such as
@@ -82,7 +79,7 @@ export default function About() {
 
                     <div className="relative w-full px-5 mt-6 overflow-hidden md:px-0 md:mt-1 md:w-9/12">
                         <div className="w-full space-y-6 text-gray-700" >
-                            <p className="text-lg text-left leading-1 text-gray-600 md:text-lg md:text-justify">
+                            <p className="text-lg text-left leading-[20px] text-gray-600 md:text-lg md:text-justify">
                                 Cambodian Students’ Association in Japan (CSAJ) consists of 5 regional associations:
                             </p>
                             <ul class="text-lg list-inside list-decimal">
