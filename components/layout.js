@@ -33,12 +33,12 @@ export default function Layout({ children, title }) {
     <>
       <Head>
         <title>{title}</title>
-        <link rel="icon" href="/logo.jpg" />
+        <link rel="icon" href="/logo.png" />
       </Head>
 
       <Navbar />
 
-      <main className="md:pt-48">{children}</main>
+      <main>{children}</main>
 
       {isVisible && 
         <div onClick={scrollToTop} className="fixed bottom-24 right-5 bg-blue-500 text-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer">

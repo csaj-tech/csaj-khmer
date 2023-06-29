@@ -6,11 +6,11 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="md:fixed w-full z-10 flex items-center justify-between p-6 bg-white md:shadow-md">
+      <nav className="w-full z-10 flex items-center justify-between p-6 bg-white">
         {/* Logo */}
         <div className="flex justify-center w-full md:w-auto">
           <a href='/'>
-            <img src="/logo.jpg" alt="Logo" width={128} height={64} />
+            <img src="/logo.png" alt="Logo" width={128} height={64} />
           </a>
         </div>
 
