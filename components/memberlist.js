@@ -30,22 +30,22 @@ export default function MemberList() {
     {
       position: 'President of KSAK',
       name: 'Sathya Lim',
-      imageUrl: '/logo.jpg',
+      imageUrl: '/logo.png',
     },
     {
       position: 'President of CSAN',
       name: 'Chheav Reak Smey',
-      imageUrl: '/logo.jpg',
+      imageUrl: '/logo.png',
     },
     {
       position: 'President of ACSK',
       name: 'Tieng Rathanak',
-      imageUrl: '/logo.jpg',
+      imageUrl: '/logo.png',
     },
     {
       position: 'President of CSAH',
       name: 'Moeung Vanna',
-      imageUrl: '/logo.jpg',
+      imageUrl: '/logo.png',
     },
     // Add more members as needed
   ];

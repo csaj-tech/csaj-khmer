@@ -13,10 +13,10 @@ export default function Posthighlight({ post }) {
             {post.title}
           </a>
         </h2>
-        <p className="mb-2 text-sm font-sans tracking-widest text-gray-500">
+        <p className="mb-2 text-sm font-sans tracking-tight md:tracking-widest text-gray-500">
           Written on {post.date}
         </p>
-        <p className="text-gray-700 text-justify">
+        <p className="text-gray-700 text-left md:text-justify">
           <a href={`/posts/${post.id}`} className="text-ms">
             <span>{post.abstract}</span>
           </a>

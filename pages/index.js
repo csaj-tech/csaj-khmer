@@ -131,10 +131,10 @@ export default function Home() {
       </>
 
       <>
-        <section className="bg-white py-16">
+        <section className="bg-white py-0 md:py-10">
           <div className="px-10 mx-auto max-w-7xl">
             <div className="text-center">
-              <h1 className="mb-3 text-5xl font-bold leading-tight text-center md:text-5xl font-sans text-blue-600 py-12">
+              <h1 className=" pb-4 text-5xl font-bold leading-tight text-center md:text-5xl font-sans text-blue-600 py-12 md:py-12 md:mb-3">
                 Our Activities
               </h1>
             </div>
@@ -144,7 +144,7 @@ export default function Home() {
                 <ReactLoading type="bars" color="#2563EB" />
               </div>
             ) : (
-              <div className="grid grid-cols-12 gap-8 py-8">
+              <div className="grid grid-cols-12 gap-7 md:gap-8 py-8">
                 {allPostsData.map((post) => (
                   <Posthighlight
                     key={post.id}
