@@ -63,7 +63,6 @@ const logos = [
   "/images/partners/cambodiafestival.jpg",
   "/images/partners/sbi.png",
   "/images/partners/jac.png",
-  "/images/partners/enjin.png",
   // Add more logos as needed
 ];
 
