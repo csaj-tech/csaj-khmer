@@ -62,7 +62,7 @@ const logos = [
   "/images/partners/kh-embassy.jpeg",
   "/images/partners/cambodiafestival.jpg",
   "/images/partners/sbi.png",
-  "/images/partners/globalcareer.jpeg",
+  "/images/partners/jac.png",
   "/images/partners/enjin.png",
   // Add more logos as needed
 ];
