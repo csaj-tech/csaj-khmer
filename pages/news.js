@@ -31,22 +31,22 @@ export default function News() {
     setIsFetching(false);
   };
 
-  // Get current posts
-  const indexOfLastPost = currentPage * postsPerPage;
-  const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  let currentPosts = allPostsData.slice(indexOfFirstPost, indexOfLastPost);
-
-  // Change page
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
   // Filter posts
-  currentPosts = currentPosts.filter((post) => {
+  let filteredPosts = allPostsData.filter((post) => {
     const postDate = new Date(post.date);
     return (
       (filterYear ? postDate.getFullYear() === Number(filterYear) : true) &&
       (filterMonth ? postDate.getMonth() + 1 === Number(filterMonth) : true)
     );
   });
+
+  // Get current posts
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  let currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
+
+  // Change page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   // Generate year options dynamically
   const currentYear = new Date().getFullYear();
@@ -112,7 +112,7 @@ export default function News() {
           </div>
           <div className="flex justify-center mt-4">
             <button className="mx-1 px-3 py-2 bg-blue-600 text-white" onClick={() => paginate(currentPage > 1 ? currentPage - 1 : currentPage)}>Prev</button>
-            <button className="mx-1 px-3 py-2 bg-blue-600 text-white" onClick={() => paginate(currentPage < Math.ceil(allPostsData.length / postsPerPage) ? currentPage + 1 : currentPage)}>Next</button>
+            <button className="mx-1 px-3 py-2 bg-blue-600 text-white" onClick={() => paginate(currentPage < Math.ceil(filteredPosts.length / postsPerPage) ? currentPage + 1 : currentPage)}>Next</button>
           </div>
         </div>
       </section>

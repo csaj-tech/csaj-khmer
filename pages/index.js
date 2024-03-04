@@ -60,10 +60,9 @@ const images = [
 
 const logos = [
   "/images/partners/kh-embassy.jpeg",
+  "/images/partners/jac.jpeg",
   "/images/partners/cambodiafestival.jpg",
   "/images/partners/sbi.png",
-  "/images/partners/globalcareer.jpeg",
-  "/images/partners/enjin.png",
   // Add more logos as needed
 ];
 
