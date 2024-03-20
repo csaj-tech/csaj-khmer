@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function MemberList({memberList}) {
+export default function MemberList({ memberList }) {
   const renderMembers = (members) => (
     <div className="flex flex-wrap justify-center">
       {members.map((member, idx) => (
@@ -25,7 +25,7 @@ export default function MemberList({memberList}) {
   return (
     <div className="space-y-10">
       {memberList.map((members, idx) => (
-        <section>
+        <section key={idx}>
           <h2 className="text-4xl font-bold text-center mb-6 text-blue-600">
             CSAJ
           </h2>
