@@ -120,9 +120,21 @@ const committeeChairs = [
 ];
 
 const memberlist = [
-  leadingMembers,
-  regionalAssociations,
-  secretariatOfficers,
-  committeeChairs,
+  {
+    label: "CSAJ",
+    members: leadingMembers,
+  },
+  {
+    label: "Regional Associations",
+    members: regionalAssociations,
+  },
+  {
+    label: "Secretaries",
+    members: secretariatOfficers,
+  },
+  {
+    label: "Committees",
+    members: committeeChairs,
+  },
 ];
 export default memberlist;

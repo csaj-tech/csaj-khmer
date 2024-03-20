@@ -24,12 +24,12 @@ export default function MemberList({ memberList }) {
   );
   return (
     <div className="space-y-10">
-      {memberList.map((members, idx) => (
+      {memberList.map((group, idx) => (
         <section key={idx}>
           <h2 className="text-4xl font-bold text-center mb-6 text-blue-600">
-            CSAJ
+            {group.label}
           </h2>
-          {renderMembers(members)}
+          {renderMembers(group.members)}
         </section>
       ))}
     </div>
