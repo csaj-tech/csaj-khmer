@@ -112,8 +112,10 @@ export default function About() {
       </section>
 
       <MemberList memberList={memberlist2024} />
+      <div class="pt-15">
 
-      <Button href="/members" text="See Previous Years' Members" />
+        <Button href="/members" text="See Previous Years' Members" />
+      </div>
     </Layout>
   );
 }
