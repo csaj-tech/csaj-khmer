@@ -99,7 +99,7 @@ export default function About() {
                 Cambodian Students’ Association in Japan (CSAJ) consists of 5
                 regional associations:
               </p>
-              <ul class="text-lg list-inside list-decimal">
+              <ul className="text-lg list-inside list-decimal">
                 <li>Cambodian Students’ Association in Kanto (CSAK)</li>
                 <li>Cambodian Students Association in Nagoya (CSAN)</li>
                 <li>Khmer Student Association in Kansai (KSAK)</li>
@@ -113,8 +113,6 @@ export default function About() {
 
       <MemberList memberList={memberlist2024} />
       <div className="mt-10 mb-2">
-
-
         <Button href="/members" text="See Previous Years' Members" />
       </div>
     </Layout>
