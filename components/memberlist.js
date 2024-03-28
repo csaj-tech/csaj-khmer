@@ -12,7 +12,7 @@ export default function MemberList({ memberList }) {
                 alt={member.name}
                 width={96}
                 height={96}
-                objectFit="cover"
+                style={{ objectFit: "cover" }}
               />
             </div>
             <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
