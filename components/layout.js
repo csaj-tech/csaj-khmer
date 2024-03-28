@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import Navbar from "./navbar";
 import Footer from "./footer";
@@ -20,7 +20,7 @@ export default function Layout({ children, title }) {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   };
 
@@ -30,7 +30,7 @@ export default function Layout({ children, title }) {
   }, []);
 
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/logo.png" />
@@ -38,15 +38,18 @@ export default function Layout({ children, title }) {
 
       <Navbar />
 
-      <main>{children}</main>
+      <main className="flex-1">{children}</main>
 
-      {isVisible && 
-        <div onClick={scrollToTop} className="fixed bottom-24 right-5 bg-blue-500 text-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer">
+      {isVisible && (
+        <div
+          onClick={scrollToTop}
+          className="fixed bottom-24 right-5 bg-blue-500 text-white h-10 w-10 flex items-center justify-center rounded-full cursor-pointer"
+        >
           ↑
         </div>
-      }
+      )}
 
       <Footer />
-    </>
+    </div>
   );
 }
