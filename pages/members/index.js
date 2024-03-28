@@ -6,7 +6,7 @@ const years = ["2023"];
 function Page() {
   return (
     <Layout title="CSAJ-Members">
-      <h1 className="font-sans leading-none py-12 text-[42px] md:text-6xl lg:text-6xl font-extrabold pt-0 md:pt-9 mb-6 relative text-center text-blue-600">
+      <h1 className="font-sans leading-none py-12 text-[42px] md:text-5xl lg:text-5xl font-extrabold pt-0 md:pt-9 mb-6 relative text-center text-blue-600">
         CSAJ Members Archive
       </h1>
 
