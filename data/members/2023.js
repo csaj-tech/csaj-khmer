@@ -2,17 +2,17 @@ const leadingMembers = [
   {
     position: "Vice-President",
     name: "Sreynet Han",
-    imageUrl: "/images/structures/2023/han_sreynet.png",
+    imageUrl: "/images/structures/2023/han_sreynet.jpg",
   },
   {
     position: "President",
     name: "Som Onn Ouch",
-    imageUrl: "/images/structures/2023/ouch_somonn.png",
+    imageUrl: "/images/structures/2023/ouch_somonn.jpg",
   },
   {
     position: "Vice-President",
     name: "Sokuncharia Srey",
-    imageUrl: "/images/structures/2023/srey_sokuncharia.png",
+    imageUrl: "/images/structures/2023/srey_sokuncharia.jpg",
   },
 
   // Add more leading members as needed
@@ -22,7 +22,7 @@ const regionalAssociations = [
   {
     position: "President of CSAK",
     name: "Som Onn Ouch",
-    imageUrl: "/images/structures/2023/ouch_somonn.png",
+    imageUrl: "/images/structures/2023/ouch_somonn.jpg",
   },
   {
     position: "President of KSAK",
@@ -51,27 +51,27 @@ const secretariatOfficers = [
   {
     position: "Secretary",
     name: "Vouchleang Seng",
-    imageUrl: "/images/structures/2023/seng_vouchleang.png",
+    imageUrl: "/images/structures/2023/seng_vouchleang.jpg",
   },
   {
     position: "Secretary",
     name: "Yaly Sou",
-    imageUrl: "/images/structures/2023/sou_yaly.png",
+    imageUrl: "/images/structures/2023/sou_yaly.jpg",
   },
   {
     position: "Secretary",
     name: "Ponhahwatey Snameas",
-    imageUrl: "/images/structures/2023/snameas_ponhahwatey.png",
+    imageUrl: "/images/structures/2023/snameas_ponhahwatey.jpg",
   },
   {
     position: "Accountant",
     name: "Sothida On",
-    imageUrl: "/images/structures/2023/on_sothida.png",
+    imageUrl: "/images/structures/2023/on_sothida.jpg",
   },
   {
     position: "Accountant",
     name: "Manydine Ry",
-    imageUrl: "/images/structures/2023/ry_manydine.png",
+    imageUrl: "/images/structures/2023/ry_manydine.jpg",
   },
 ];
 
@@ -79,42 +79,42 @@ const committeeChairs = [
   {
     position: "Chair of Cultural Committee",
     name: "Pryalen Chhoeur",
-    imageUrl: "/images/structures/2023/chhoeur_pryalen.png",
+    imageUrl: "/images/structures/2023/chhoeur_pryalen.jpg",
   },
   {
     position: "Chair of Educational Committee",
     name: "Sothearoth Phou",
-    imageUrl: "/images/structures/2023/phou_sothearoth.png",
+    imageUrl: "/images/structures/2023/phou_sothearoth.jpg",
   },
   {
     position: "Chair of Media and Communication Committee",
     name: "Monyratana Mom",
-    imageUrl: "/images/structures/2023/mom_monyratana.png",
+    imageUrl: "/images/structures/2023/mom_monyratana.jpg",
   },
   {
     position: "Chair of Public Relation Committee",
     name: "Oudom Oum",
-    imageUrl: "/images/structures/2023/oum_oudom.png",
+    imageUrl: "/images/structures/2023/oum_oudom.jpg",
   },
   {
     position: "Chair of Student Service Committee",
     name: "Vithyea Sam",
-    imageUrl: "/images/structures/2023/sam_vithyea.png",
+    imageUrl: "/images/structures/2023/sam_vithyea.jpg",
   },
   {
     position: "Chair of Event Planning Committee",
     name: "Socheata Uk",
-    imageUrl: "/images/structures/2023/uk_socheata.png",
+    imageUrl: "/images/structures/2023/uk_socheata.jpg",
   },
   {
     position: "Chair of Information Technology Committee",
     name: "Mengsay Loem",
-    imageUrl: "/images/structures/2023/loem_mengsay.png",
+    imageUrl: "/images/structures/2023/loem_mengsay.jpg",
   },
   {
     position: "Chair of Administrative Committee",
     name: "Sokleang Loch",
-    imageUrl: "/images/structures/2023/loch_sokleang.png",
+    imageUrl: "/images/structures/2023/loch_sokleang.jpg",
   },
   // Add more committee chairs as needed
 ];
