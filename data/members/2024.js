@@ -5,7 +5,7 @@ const leadingMembers = [
   {
     position: "Vice-President",
     name: "Sreynet Han",
-    imageUrl: "/images/structures/2024/Han_Sreynet.jpeg",
+    imageUrl: "/images/structures/2024/Han_Sreynet.jpg",
   },
   {
     position: "Vice-President",
@@ -21,12 +21,12 @@ const leadingMembers = [
   {
     position: "Vice-President",
     name: "Dane Has",
-    imageUrl: "/images/structures/2024/Dane_has.jpeg",
+    imageUrl: "/images/structures/2024/Dane_has.jpg",
   },
   {
     position: "Vice-President",
     name: "Ngov Yuseng",
-    imageUrl: "/images/structures/2024/Ngov_Yuseng.jpeg",
+    imageUrl: "/images/structures/2024/Ngov_Yuseng.jpg",
   },
 
   // Add more leading members as needed
@@ -75,17 +75,17 @@ const secretariatOfficers = [
   {
     position: "Accountant",
     name: "Pech Longsonita",
-    imageUrl: "/images/structures/2024/Pechlong_sonita.jpeg",
+    imageUrl: "/images/structures/2024/Pechlong_sonita.jpg",
   },
   {
     position: "Member",
     name: "Manydine Ry",
-    imageUrl: "/images/structures/2024/Ry_manyDine.jpeg",
+    imageUrl: "/images/structures/2024/Ry_manyDine.jpg",
   },
   {
     position: "Member",
     name: "Ngov Yuseng",
-    imageUrl: "/images/structures/2024/Ngov_Yuseng.jpeg",
+    imageUrl: "/images/structures/2024/Ngov_Yuseng.jpg",
   },
 ];
 
@@ -93,12 +93,12 @@ const committeeChairs = [
   {
     position: "Chair of Cultural Committee",
     name: "Khoeun Sovanvatey",
-    imageUrl: "/images/structures/2024/Sovanvatey_Khoeun.jpeg",
+    imageUrl: "/images/structures/2024/Sovanvatey_Khoeun.jpg",
   },
   {
     position: "Chair of Educational Committee",
     name: "Pen Nethi",
-    imageUrl: "/images/structures/2024/pen_nethi.jpeg",
+    imageUrl: "/images/structures/2024/pen_nethi.jpg",
   },
   {
     position: "Chair of Media and Content Creator Committee",
@@ -108,7 +108,7 @@ const committeeChairs = [
   {
     position: "Member of Public Relation Committee",
     name: "Pech Longsonita",
-    imageUrl: "/images/structures/2024/Pechlong_sonita.jpeg",
+    imageUrl: "/images/structures/2024/Pechlong_sonita.jpg",
   },
   {
     position: "Member of Student Service Committee",
@@ -118,12 +118,12 @@ const committeeChairs = [
   {
     position: "Member of Event Planning Committee",
     name: "Phan Phearamony",
-    imageUrl: "/images/structures/2024/Pheara_Mony.JPG",
+    imageUrl: "/images/structures/2024/Pheara_Mony.jpg",
   },
   {
     position: "Chair of Information Technology Committee",
     name: "Pich David",
-    imageUrl: "/images/structures/2024/David_Pich.jpeg",
+    imageUrl: "/images/structures/2024/David_Pich.jpg",
   },
 
   // Add more committee chairs as needed
