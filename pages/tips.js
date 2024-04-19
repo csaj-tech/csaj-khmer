@@ -52,7 +52,7 @@ export default function Tips() {
               </div>
               <div className="overflow-hidden bg-gray-100 md:h-96">
                 <img
-                  src="/images/columns/LIVING_IN_JAPAN.png"
+                  src="/images/columns/LIVING_IN_JAPAN.jpg"
                   className="object-contain md:object-cover w-full h-full"
                   alt=""
                 />
@@ -62,7 +62,7 @@ export default function Tips() {
             <div className="grid items-center lg:grid-cols-2">
               <div className="order-last overflow-hidden bg-gray-100 md:h-96 lg:order-first">
                 <img
-                  src="/images/columns/STUDYING_IN_JAPAN.png"
+                  src="/images/columns/STUDYING_IN_JAPAN.jpg"
                   className="object-contain md:object-cover w-full h-full"
                   alt=""
                 />
@@ -103,7 +103,7 @@ export default function Tips() {
               </div>
               <div className="bg-gray-100 md:h-96">
                 <img
-                  src="/images/columns/WORKING_IN_JAPAN.png"
+                  src="/images/columns/WORKING_IN_JAPAN.jpg"
                   className="object-contain md:object-cover w-full h-full"
                   alt=""
                 />
