@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Image from "next/image";
+
+const joinUsLink = "https://forms.gle/L3oGiB5EwVTTJmZ9A";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,8 @@ export default function Navbar() {
             About Us
           </a>
           <a
-            href="https://forms.gle/L3oGiB5EwVTTJmZ9A"
+            href={joinUsLink}
+            target="_blank"
             className="text text-blue-700 hover:text-blue-900"
           >
             Join Us
@@ -86,7 +88,8 @@ export default function Navbar() {
             About Us
           </a>
           <a
-            href="https://forms.gle/UYriTnL1JzHnPzyU6"
+            href={joinUsLink}
+            target="_blank"
             className="block py-1 text-blue-700 hover:text-blue-900 text-2xl"
           >
             Join Us
