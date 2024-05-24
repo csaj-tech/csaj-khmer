@@ -53,3 +53,4 @@ export default function Layout({ children, title }) {
     </div>
   );
 }
+

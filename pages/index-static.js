@@ -1,3 +1,4 @@
+import { getServerSideProps } from 'next/dist/build/templates/pages';
 import Layout from '../components/layout';
 import Posthighlight from '../components/posthighlight';
 import { getSortedPostsData } from '../lib/posts';
