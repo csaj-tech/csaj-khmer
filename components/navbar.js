@@ -24,7 +24,7 @@ export default function Navbar() {
           <a href="/news" className="text-red-400 hover:text-red-600">
             News
           </a>
-          <a href="/tips" className="text-red-400 hover:text-red-600">
+          <a href="/life-in-japan" className="text-red-400 hover:text-red-600">
             Life in Japan
           </a>
           <a href="/about" className="text-red-400 hover:text-red-600">
@@ -77,7 +77,7 @@ export default function Navbar() {
             News
           </a>
           <a
-            href="/tips"
+            href="/life-in-japan"
             className="block py-1 text-red-400 hover:text-red-600 text-2xl"
           >
             Life in Japan
