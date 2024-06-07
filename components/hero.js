@@ -10,7 +10,7 @@ export default function Hero() {
           Cambodian Students' Association in Japan
         </h1>
         <div className="flex flex-col items-center md:items-start">
-          <p className="mb-4 text-md md:text-xl lg:text-xl text-justify my-4">
+          <p className="mb-4 text-md md:text-xl lg:text-xl my-4">
             Cambodian Students’ Association in Japan (CSAJ) represents on behalf
             of the Cambodian students studying in all main regions of Japan,
             including Kanto, Kansai, Nagoya, Hiroshima, and Kyushu. We aim to

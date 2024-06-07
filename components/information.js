@@ -8,7 +8,7 @@ export default function Information() {
           Support Us
         </h2>
         <div className="mb-4">
-          <p className="font-sans text-left md:text-justify text-md text-justify">
+          <p className="font-sans text-left text-md">
             The Cambodian Students’ Association of Japan (CSAJ) is an
             association composed entirely of Cambodians pursuing academia in
             Japan. As we are a nonprofit organization, we require sponsorships
@@ -29,7 +29,7 @@ export default function Information() {
         <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4">
           Available Resources
         </h2>
-        <div className="py-6 font-sans md:text-justify text-md text-justify">
+        <div className="py-6 font-sans text-md text-left">
           <p>
             Feature your logos and links on our website, social media platforms,
             as well as posters and mailing lists. Join us in major events such
@@ -69,7 +69,7 @@ export default function Information() {
         </div>
       </div>
 
-      <div className="p-6 font-sans text-justify text-lg">
+      <div className="p-6 font-sans text-left text-lg">
         <p>
           For information on available sponsorship packages,{" "}
           <a
