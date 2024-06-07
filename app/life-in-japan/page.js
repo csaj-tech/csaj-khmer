@@ -4,7 +4,7 @@ import ColumnblockNotion from "../../components/columnblockNotion";
 import { useState, useEffect } from "react";
 import ReactLoading from "react-loading";
 
-export default function Tips() {
+export default function LifeInJapan() {
   const [allColumnsData, setAllColumnsData] = useState([]);
   const [isFetching, setIsFetching] = useState(true);
 
@@ -35,14 +35,14 @@ export default function Tips() {
           <div className="grid items-center lg:grid-cols-2">
             <div className="flex flex-col items-start justify-center h-full p-1 md:py-16 md:pl-16 md:pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
               <h3 className="text-3xl font-semibold sm:text-4xl text-blue-400">
-                <a href="/tips/living"> Living in Japan</a>
+                <a href="/life-in-japan/living"> Living in Japan</a>
               </h3>
               <p className="text-lg text-gray-600 text-left md:text-justify pb-5 md:pb-0">
                 Japanese culture shines among rich East Asian cultures with its unique and fascinating blend of ancient traditions and modern innovations.
                 Japanese culture, from its distinctive cuisine and tea ceremonies to its ancient arts and poetries, has been shaped by its thousands of years of history and distinctive geography...
                 <a
                   className="text-xl font-sans text-gray-800 font-bold"
-                  href="/tips/living"
+                  href="/life-in-japan/living"
                 >
                   {" "}
                   [Read more]
@@ -68,14 +68,14 @@ export default function Tips() {
             </div>
             <div className="flex flex-col items-start justify-center h-full mt-8 md:mt-0 p-1 md:py-16 md:pl-16 md:pr-16 space-y-4 bg-white lg:pr-20 lg:py-0">
               <h3 className="text-3xl font-semibold sm:text-4xl text-teal-600">
-                <a href="/tips/studying"> Studying in Japan</a>
+                <a href="/life-in-japan/studying"> Studying in Japan</a>
               </h3>
               <p className="text-lg text-left text-gray-600 md:text-justify pb-5 md:pb-0">
                 Japan is undoubtedly a top destination for pursuing higher education, thanks to its world-class education and renowned universities.
                 The country offers a diverse range of academic programs across various fields, making it an ideal destination for students seeking quality education...
                 <a
                   className="text-xl font-sans text-gray-800 font-bold"
-                  href="/tips/studying"
+                  href="/life-in-japan/studying"
                 >
                   [Read more]
                 </a>
@@ -86,7 +86,7 @@ export default function Tips() {
           <div className="grid items-center lg:grid-cols-2">
             <div className="flex flex-col items-start justify-center h-full mt-8 md:mt-0 p-1 md:py-16 md:pl-16 md:pr-16 space-y-4 bg-white lg:pr-20 lg:py-0 tails-relative">
               <h3 className="text-3xl font-semibold sm:text-4xl text-violet-600">
-                <a href="/tips/working"> Working in Japan</a>
+                <a href="/life-in-japan/working"> Working in Japan</a>
               </h3>
               <p className="text-lg text-left text-gray-600 md:text-justify pb-5 md:pb-0">
                 In order to be able to work in Japan, it is necessary to apply for a work permit
@@ -94,7 +94,7 @@ export default function Tips() {
                 The application form can be downloaded from these links...
                 <a
                   className="text-xl font-sans text-gray-800 font-bold"
-                  href="/tips/working"
+                  href="/life-in-japan/working"
                 >
                   [Read more]
                 </a>
