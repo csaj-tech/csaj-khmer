@@ -1,7 +1,9 @@
-import Layout from "../components/layout";
-import MemberList from "../components/memberlist";
-import Button from "../components/button";
-import memberlist2024 from "../data/members/2024";
+"use client";
+
+import Layout from "../../components/layout";
+import MemberList from "../../components/memberlist";
+import Button from "../../components/button";
+import memberlist2024 from "../../data/members/2024";
 
 export const MISSION = {
   title: "Mission",
@@ -27,7 +29,7 @@ export const VALUE = {
 
 export default function About() {
   return (
-    <Layout title="CSAJ-About Us">
+    <>
       <h1 className="font-sans leading-none py-12 text-[42px] md:text-6xl lg:text-6xl font-extrabold pt-0 md:pt-9 mb-6 relative text-center text-blue-600">
         Cambodian Students' Association in Japan
       </h1>
@@ -115,6 +117,6 @@ export default function About() {
       <div className="mt-10 mb-2">
         <Button href="/members" text="See Previous Years' Members" />
       </div>
-    </Layout>
+    </>
   );
 }
