@@ -2,21 +2,21 @@ import Button from "../../../components/button";
 import MemberList from "../../../components/memberlist";
 import memberlist2023 from "../../../data/members/2023";
 
-export const MISSION = {
+const MISSION = {
   title: "Mission",
   abstract: "Bridging Cambodian and Japanese Communities",
   detail:
     "Our mission is to create a safe and welcoming environment where Cambodian students can thrive academically, socially, and culturally, while also promoting cross-cultural exchange between Cambodia and Japan. We strive to empower our members by providing opportunities for personal and professional growth, and by promoting leadership and community involvement. At the same time, we are committed to advocating for the rights and interests of Cambodian students and promoting social justice and equality.",
 };
 
-export const VISION = {
+const VISION = {
   title: "Vision",
   abstract: "Empowering Cambodian Students as Future Leaders",
   detail:
     "Our vision is to empower Cambodian students studying in Japan to become leaders in their respective fields, and to promote mutual understanding and respect between Cambodian and Japanese cultures. We envision a future where Cambodian students are equipped with the knowledge, skills, and resources to contribute to the development of their communities and society as a whole. We believe that our members have the potential to become agents of change, and we are committed to providing them with the tools they need to achieve their goals.",
 };
 
-export const VALUE = {
+const VALUE = {
   title: "Values",
   abstract:
     "Inclusiveness, Empowerment, and Collaboration: Guiding Values of CSAJ",
