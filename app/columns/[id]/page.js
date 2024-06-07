@@ -1,6 +1,8 @@
+"use client";
+
 import Head from "next/head";
-import Layout from "../../components/layout";
-import Date from "../../lib/date";
+import Layout from "../../../components/layout";
+import Date from "../../../lib/date";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
@@ -8,13 +10,12 @@ import { Render } from "@9gustin/react-notion-render";
 import "@9gustin/react-notion-render/dist/index.css";
 import ReactLoading from "react-loading";
 
-export default function Column() {
+export default function Column({ params }) {
   const [postData, setPostData] = useState(null);
   const [content, setContent] = useState([]);
   const [isFetching, setIsFetching] = useState(true);
 
-  const router = useRouter();
-  const { id } = router.query;
+  const { id } = params;
 
   const getPageContent = async () => {
     setIsFetching(true);
@@ -45,7 +46,7 @@ export default function Column() {
     );
 
   return (
-    <Layout>
+    <>
       <Head>
         <title>{postData.title}</title>
       </Head>
@@ -75,6 +76,6 @@ export default function Column() {
         <br />
         <Render blocks={content} emptyBlocks />
       </article>
-    </Layout>
+    </>
   );
 }
