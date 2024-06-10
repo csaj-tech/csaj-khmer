@@ -1,8 +1,7 @@
-import Layout from '../../components/layout';
 
-export default function Tips() {
+export default function LivingPage() {
     return (
-        <Layout title="CSAJ-LivingInJapan">
+        <>
             <section className="w-full py-10 bg-white">
                 <h1 className="font-sans text-[42px] md:text-6xl lg:text-6xl font-extrabold mb-6 relative text-center text-rose-400">
                     Living in Japan
@@ -201,6 +200,6 @@ export default function Tips() {
                 </section>
 
             </section>
-        </Layout>
+        </>
     );
 }

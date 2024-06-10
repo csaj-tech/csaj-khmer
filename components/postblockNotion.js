@@ -6,7 +6,7 @@ export default function Postblock({ post }) {
   return (
     <div className="relative">
       <Link
-        href={`/posts/${post.id}`}
+        href={`/news/${post.id}`}
         className="block overflow-hidden group rounded-xl"
       >
         <img
@@ -19,13 +19,13 @@ export default function Postblock({ post }) {
         <p className="uppercase font-sans text-xs mb-2.5 text-gray-500">
           {post.date}
         </p>
-        <Link href={`/posts/${post.id}`} className="block mb-3 hover:underline">
+        <Link href={`/news/${post.id}`} className="block mb-3 hover:underline">
           <h2 className="text-xl font-bold leading-7 text-center text-black transition-colors duration-200 hover:text-deep-purple-accent-700">
             {post.title}
           </h2>
         </Link>
         <p className="mb-4 text-gray-700 text-justify">{post.abstract}</p>
-        <Link href={`/posts/${post.id}`} className="font-sans underline">
+        <Link href={`/news/${post.id}`} className="font-sans underline">
           Read More
         </Link>
       </div>

@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 
 const joinUsLink = "https://forms.gle/L3oGiB5EwVTTJmZ9A";
@@ -7,7 +8,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="w-full z-10 flex items-center justify-between p-6 bg-white">
+      <nav className="w-full z-10 flex items-center justify-between p-6 bg-white container mx-auto">
         {/* Logo */}
         <div className="flex justify-center w-full md:w-auto">
           <a href="/">
@@ -16,14 +17,14 @@ export default function Navbar() {
         </div>
 
         {/* Navigation menu for larger screens */}
-        <div className="hidden md:flex space-x-12 text-4xl font-semibold">
+        <div className="hidden md:flex space-x-8 text-2xl font-semibold">
           <a href="/" className="text-red-400 hover:text-red-600">
             Home
           </a>
           <a href="/news" className="text-red-400 hover:text-red-600">
             News
           </a>
-          <a href="/tips" className="text-red-400 hover:text-red-600">
+          <a href="/life-in-japan" className="text-red-400 hover:text-red-600">
             Life in Japan
           </a>
           <a href="/about" className="text-red-400 hover:text-red-600">
@@ -76,7 +77,7 @@ export default function Navbar() {
             News
           </a>
           <a
-            href="/tips"
+            href="/life-in-japan"
             className="block py-1 text-red-400 hover:text-red-600 text-2xl"
           >
             Life in Japan

@@ -1,8 +1,7 @@
-import Layout from '../../components/layout';
 
-export default function Tips() {
+export default function StudyingPage() {
     return (
-        <Layout title="CSAJ-StudyingInJapan">
+        <>
             <section className="w-full py-10 bg-white">
                 <h1 className="text-[42px] md:text-6xl lg:text-6xl font-extrabold mb-6 relative text-center text-rose-400">
                     Study in Japan
@@ -160,6 +159,6 @@ export default function Tips() {
                 </section>
 
             </section>
-        </Layout>
+        </>
     );
 }

@@ -9,8 +9,11 @@ module.exports = {
     // "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-
+    extend: {
+      fontFamily: {
+        kantumruy: ["var(--font-kantumruy)"],
+      },
+    },
   },
-  plugins: [require('@tailwindcss/typography')],
-}
+  plugins: [require("@tailwindcss/typography")],
+};
