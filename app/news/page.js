@@ -3,36 +3,48 @@
 import Postblock from "../../components/postblockNotion";
 import { useState, useEffect } from "react";
 import ReactLoading from "react-loading";
+import { useQuery } from "@tanstack/react-query";
 
 export default function News() {
-  const [allPostsData, setAllPostsData] = useState([]);
-  const [isFetching, setIsFetching] = useState(true);
   const [oldestYear, setOldestYear] = useState(new Date().getFullYear());
-
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(6);
 
   const [filterYear, setFilterYear] = useState("");
   const [filterMonth, setFilterMonth] = useState("");
 
-  const fetchAllPosts = async () => {
-    try {
-      setIsFetching(true);
-      const res = await fetch("/api/get-notion-db");
-      const data = await res.json();
-      // Determine the year of the oldest post
-      const minYear = data.reduce((min, p) => {
-        return new Date(p.date).getFullYear() < min
-          ? new Date(p.date).getFullYear()
-          : min;
-      }, new Date().getFullYear());
-      setOldestYear(minYear);
-      setAllPostsData(data);
-    } catch (error) {
-      console.log(error);
-    }
-    setIsFetching(false);
-  };
+  const {
+    isPending,
+    error,
+    isError,
+    data: allPostsData,
+  } = useQuery({
+    queryKey: ["news", "all"],
+    queryFn: () => fetch("/api/get-notion-db").then((res) => res.json()),
+    staleTime: 1000 * 60 * 5,
+  });
+
+  useEffect(() => {
+    if (!allPostsData) return;
+    const minYear = allPostsData.reduce((min, p) => {
+      return new Date(p.date).getFullYear() < min
+        ? new Date(p.date).getFullYear()
+        : min;
+    }, new Date().getFullYear());
+    setOldestYear(minYear);
+  }, [allPostsData]);
+
+  if (isPending) {
+    return (
+      <div className="flex h-screen items-center justify-center">
+        <ReactLoading type="bars" color="#2563EB" />
+      </div>
+    );
+  }
+
+  if (isError) {
+    return <>Error: {error.message}</>;
+  }
 
   // Filter posts
   let filteredPosts = allPostsData.filter((post) => {
@@ -61,23 +73,12 @@ export default function News() {
   // Generate month options dynamically
   const monthOptions = Array.from({ length: 12 }, (_, index) => index + 1);
 
-  useEffect(() => {
-    fetchAllPosts();
-  }, []);
-
-  if (isFetching)
-    return (
-      <div className="flex h-screen items-center justify-center">
-        <ReactLoading type="bars" color="#2563EB" />
-      </div>
-    );
-
   return (
     <section className="w-full py-10 bg-white font-sans">
       <h1 className=" text-5xl md:text-6xl lg:text-6xl font-bold mb-6 relative text-center text-blue-600">
         News
       </h1>
-      
+
       <div className="px-8 py-10 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 lg:py-20 sm:py-16">
         <div className="flex justify-center mb-4 bg-gray-100 round-lg">
           <div className="pl-3">

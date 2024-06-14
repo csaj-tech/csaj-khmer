@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
 
 const joinUsLink = "https://forms.gle/L3oGiB5EwVTTJmZ9A";
 
@@ -18,18 +19,18 @@ export default function Navbar() {
 
         {/* Navigation menu for larger screens */}
         <div className="hidden md:flex space-x-8 text-2xl font-semibold">
-          <a href="/" className="text-red-400 hover:text-red-600">
+          <Link href="/" className="text-red-400 hover:text-red-600">
             Home
-          </a>
-          <a href="/news" className="text-red-400 hover:text-red-600">
+          </Link>
+          <Link href="/news" className="text-red-400 hover:text-red-600">
             News
-          </a>
-          <a href="/life-in-japan" className="text-red-400 hover:text-red-600">
+          </Link>
+          <Link href="/life-in-japan" className="text-red-400 hover:text-red-600">
             Life in Japan
-          </a>
-          <a href="/about" className="text-red-400 hover:text-red-600">
+          </Link>
+          <Link href="/about" className="text-red-400 hover:text-red-600">
             About Us
-          </a>
+          </Link>
           <a
             href={joinUsLink}
             target="_blank"
