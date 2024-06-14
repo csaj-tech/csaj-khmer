@@ -9,7 +9,9 @@
   "dependencies": {
     "@9gustin/react-notion-render": "^3.11.2",
     "@notionhq/client": "^2.2.3",
+    "@tanstack/query-sync-storage-persister": "^5.45.0",
     "@tanstack/react-query": "^5.45.0",
+    "@tanstack/react-query-persist-client": "^5.45.0",
     "date-fns": "^2.29.3",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
