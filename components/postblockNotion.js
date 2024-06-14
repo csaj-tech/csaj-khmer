@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Postblock({ post }) {
   const defaultHeaderImage =
@@ -9,10 +10,12 @@ export default function Postblock({ post }) {
         href={`/news/${post.id}`}
         className="block overflow-hidden group rounded-xl"
       >
-        <img
+        <Image
           src={post.image ? post.image : defaultHeaderImage}
+          width={500}
+          height={224}
           className="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110"
-          alt=""
+          alt="news-photo"
         />
       </Link>
       <div className="relative mt-5">
