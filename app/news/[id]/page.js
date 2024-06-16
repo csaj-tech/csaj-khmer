@@ -9,10 +9,15 @@ import "@9gustin/react-notion-render/dist/index.css";
 import ReactLoading from "react-loading";
 import { useQueries } from "@tanstack/react-query";
 import Button from "../../../components/button";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Post({ params }) {
+  const router = useRouter();
   const { id } = params;
+
+  const handleGoBack = () => {
+    router.back();
+  };
 
   const results = useQueries({
     queries: [
@@ -61,13 +66,13 @@ export default function Post({ params }) {
         <title>{metaData.title}</title>
       </Head>
       <article className="propse prose-xl pt-12 px-12 text-justify font-sans">
-        <Link
-          href="/news"
+        <button
+          onClick={handleGoBack}
           className="bg-blue-500 text-white px-2 py-1 rounded hover:bg-blue-600 my-4"
         >
           {" "}
           {`< Go back`}
-        </Link>
+        </button>
         <h1 className="text-3xl md:text-5xl font-bold dark:text-blue text-center my-12 flex-justify">
           {metaData.title}
         </h1>
