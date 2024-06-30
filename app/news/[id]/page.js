@@ -20,12 +20,16 @@ function PostImage({ className, media }) {
     />
   );
 
-  return href ? (
-    <a href={href} target="_blank" rel="noreferrer">
-      {img}
-    </a>
-  ) : (
-    img
+  return (
+    <div className="flex justify-center">
+      {href ? (
+        <a href={href} target="_blank" rel="noreferrer">
+          {img}
+        </a>
+      ) : (
+        img
+      )}
+    </div>
   );
 }
 
