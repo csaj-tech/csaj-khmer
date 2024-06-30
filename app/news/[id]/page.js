@@ -2,11 +2,32 @@
 import Head from "next/head";
 import Date from "../../../lib/date";
 import Image from "next/image";
-import { Render } from "@9gustin/react-notion-render";
+import { Render, withContentValidation } from "@9gustin/react-notion-render";
 import ReactLoading from "react-loading";
 import { useQueries } from "@tanstack/react-query";
 import Button from "../../../components/button";
 import { useRouter } from "next/navigation";
+
+function PostImage({ className, media }) {
+  const { src, alt, href } = media;
+
+  const img = (
+    <img
+      className={className}
+      src={src}
+      alt={alt}
+      style={{ width: "75%", height: "auto" }}
+    />
+  );
+
+  return href ? (
+    <a href={href} target="_blank" rel="noreferrer">
+      {img}
+    </a>
+  ) : (
+    img
+  );
+}
 
 export default function Post({ params }) {
   const router = useRouter();
@@ -95,7 +116,13 @@ export default function Post({ params }) {
             </div>
           ))}
         <br />
-        <Render blocks={content} emptyBlocks />
+        <Render
+          blocks={content}
+          emptyBlocks
+          blockComponentsMapper={{
+            image: withContentValidation(PostImage),
+          }}
+        />
       </article>
     </>
   );
