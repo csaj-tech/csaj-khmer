@@ -5,7 +5,6 @@ import Date from "../../../lib/date";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { Render } from "@9gustin/react-notion-render";
-import "@9gustin/react-notion-render/dist/index.css";
 import ReactLoading from "react-loading";
 import { useQueries } from "@tanstack/react-query";
 import Button from "../../../components/button";
