@@ -1,5 +1,4 @@
 "use client";
-
 import Head from "next/head";
 import Date from "../../../lib/date";
 import Image from "next/image";
@@ -8,33 +7,7 @@ import "@9gustin/react-notion-render/dist/index.css";
 import ReactLoading from "react-loading";
 import { useQueries } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
-
-function PostImage({ className, media }) {
-  const { src, alt, href } = media;
-
-  const img = (
-    <img
-      className={className}
-      src={src}
-      alt={alt}
-      style={{ width: "75%", height: "auto" }}
-    />
-  );
-
-  return (
-    /* add div to have images centered */
-    <div className="flex justify-center">
-      {/* add link to image if link exists */}
-      {href ? (
-        <a href={href} target="_blank" rel="noreferrer">
-          {img}
-        </a>
-      ) : (
-        img
-      )}
-    </div>
-  );
-}
+import PostImage from "../../../components/postImage";
 
 export default function Column({ params }) {
   const router = useRouter();
