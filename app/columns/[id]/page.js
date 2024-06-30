@@ -3,10 +3,35 @@
 import Head from "next/head";
 import Date from "../../../lib/date";
 import Image from "next/image";
-import { Render } from "@9gustin/react-notion-render";
+import { Render, withContentValidation } from "@9gustin/react-notion-render";
 import "@9gustin/react-notion-render/dist/index.css";
 import ReactLoading from "react-loading";
 import { useQueries } from "@tanstack/react-query";
+
+function PostImage({ className, media }) {
+  const { src, alt, href } = media;
+
+  const img = (
+    <img
+      className={className}
+      src={src}
+      alt={alt}
+      style={{ width: "75%", height: "auto" }}
+    />
+  );
+
+  return (
+    <div className="flex justify-center">
+      {href ? (
+        <a href={href} target="_blank" rel="noreferrer">
+          {img}
+        </a>
+      ) : (
+        img
+      )}
+    </div>
+  );
+}
 
 export default function Column({ params }) {
   const { id } = params;
@@ -41,9 +66,9 @@ export default function Column({ params }) {
   if (metaQuery.isError || contentQuery.isError) {
     return (
       <div className="flex flex-col items-center h-screen">
-        <p className="text-xl">Cannot find the news</p>
+        <p className="text-xl">Cannot find the column</p>
         <div className="mt-10 mb-2">
-          <Button href="/news" text="Go back" />
+          <Button href="/columns" text="Go back" />
         </div>
       </div>
     );
@@ -82,7 +107,13 @@ export default function Column({ params }) {
             </div>
           ))}
         <br />
-        <Render blocks={content} emptyBlocks />
+        <Render
+          blocks={content}
+          emptyBlocks
+          blockComponentsMapper={{
+            image: withContentValidation(PostImage),
+          }}
+        />
       </article>
     </>
   );
