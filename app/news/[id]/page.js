@@ -21,7 +21,9 @@ function PostImage({ className, media }) {
   );
 
   return (
+    /* add div to have images centered */
     <div className="flex justify-center">
+      {/* add link to image if link exists */}
       {href ? (
         <a href={href} target="_blank" rel="noreferrer">
           {img}
@@ -88,6 +90,7 @@ export default function Post({ params }) {
         <title>{metaData.title}</title>
       </Head>
       <article className="propse prose-xl pt-12 px-12 text-justify font-sans">
+        {/* section of post to visualize metadata (author, title, publish date) */}
         <button
           onClick={handleGoBack}
           className="bg-blue-500 text-white px-2 py-1 rounded hover:bg-blue-600 my-4"
@@ -123,6 +126,8 @@ export default function Post({ params }) {
             </div>
           ))}
         <br />
+
+        {/* body section of post */}
         <Render
           blocks={content}
           emptyBlocks

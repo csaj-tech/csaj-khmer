@@ -21,7 +21,9 @@ function PostImage({ className, media }) {
   );
 
   return (
+    /* add div to have images centered */
     <div className="flex justify-center">
+      {/* add link to image if link exists */}
       {href ? (
         <a href={href} target="_blank" rel="noreferrer">
           {img}
@@ -83,6 +85,7 @@ export default function Column({ params }) {
         <title>{metaData.title}</title>
       </Head>
       <article className="propse prose-xl px-12 text-justify font-sans">
+        {/* section of post to visualize metadata (author, title, publish date) */}
         <h1 className="text-4xl md:text-5xl font-bold dark:text-blue text-center mb-12">
           {metaData.title}
         </h1>
@@ -107,6 +110,8 @@ export default function Column({ params }) {
             </div>
           ))}
         <br />
+
+        {/* body section of post */}
         <Render
           blocks={content}
           emptyBlocks
