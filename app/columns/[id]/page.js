@@ -7,6 +7,7 @@ import { Render, withContentValidation } from "@9gustin/react-notion-render";
 import "@9gustin/react-notion-render/dist/index.css";
 import ReactLoading from "react-loading";
 import { useQueries } from "@tanstack/react-query";
+import { useRouter } from "next/navigation";
 
 function PostImage({ className, media }) {
   const { src, alt, href } = media;
@@ -36,7 +37,12 @@ function PostImage({ className, media }) {
 }
 
 export default function Column({ params }) {
+  const router = useRouter();
   const { id } = params;
+
+  const handleGoBack = () => {
+    router.back();
+  };
 
   const results = useQueries({
     queries: [
@@ -86,6 +92,14 @@ export default function Column({ params }) {
       </Head>
       <article className="propse prose-xl px-12 text-justify font-sans">
         {/* section of post to visualize metadata (author, title, publish date) */}
+        <button
+          onClick={handleGoBack}
+          className="bg-blue-500 text-white px-2 py-1 rounded hover:bg-blue-600 my-4"
+        >
+          {" "}
+          {`< Go back`}
+        </button>
+
         <h1 className="text-4xl md:text-5xl font-bold dark:text-blue text-center mb-12">
           {metaData.title}
         </h1>
