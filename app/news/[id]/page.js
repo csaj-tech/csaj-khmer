@@ -1,15 +1,13 @@
 "use client";
 import Head from "next/head";
-import Layout from "../../../components/layout";
 import Date from "../../../lib/date";
 import Image from "next/image";
-import { useState, useEffect } from "react";
-import { Render } from "@9gustin/react-notion-render";
-import "@9gustin/react-notion-render/dist/index.css";
+import { Render, withContentValidation } from "@9gustin/react-notion-render";
 import ReactLoading from "react-loading";
 import { useQueries } from "@tanstack/react-query";
 import Button from "../../../components/button";
 import { useRouter } from "next/navigation";
+import PostImage from "../../../components/postImage";
 
 export default function Post({ params }) {
   const router = useRouter();
@@ -66,6 +64,7 @@ export default function Post({ params }) {
         <title>{metaData.title}</title>
       </Head>
       <article className="propse prose-xl pt-12 px-12 text-justify font-sans">
+        {/* section of post to visualize metadata (author, title, publish date) */}
         <button
           onClick={handleGoBack}
           className="bg-blue-500 text-white px-2 py-1 rounded hover:bg-blue-600 my-4"
@@ -73,7 +72,10 @@ export default function Post({ params }) {
           {" "}
           {`< Go back`}
         </button>
-        <h1 className="text-3xl md:text-5xl font-bold dark:text-blue text-center my-12 flex-justify">
+        <h1
+          className="text-3xl md:text-5xl font-bold dark:text-blue text-center my-12 flex-justify"
+          style={{ lineHeight: 1.5 }}
+        >
           {metaData.title}
         </h1>
         <p>
@@ -98,7 +100,15 @@ export default function Post({ params }) {
             </div>
           ))}
         <br />
-        <Render blocks={content} emptyBlocks />
+
+        {/* body section of post */}
+        <Render
+          blocks={content}
+          emptyBlocks
+          blockComponentsMapper={{
+            image: withContentValidation(PostImage),
+          }}
+        />
       </article>
     </>
   );
