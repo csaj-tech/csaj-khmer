@@ -28,7 +28,7 @@ export default function Columns() {
 
   useEffect(() => {
     if (!allColumnsData) return;
-    const minYear = data.reduce((min, p) => {
+    const minYear = allColumnsData.reduce((min, p) => {
       return new Date(p.date).getFullYear() < min
         ? new Date(p.date).getFullYear()
         : min;
@@ -42,6 +42,9 @@ export default function Columns() {
         <ReactLoading type="bars" color="#2563EB" />
       </div>
     );
+  }
+  if (isError) {
+    return <>Error: {error.message}</>;
   }
 
   // Filter posts
@@ -65,22 +68,11 @@ export default function Columns() {
   const currentYear = new Date().getFullYear();
   const yearOptions = Array.from(
     { length: currentYear - oldestYear + 1 },
-    (_, index) => currentYear - index
+    (_, index) => currentYear - index,
   );
 
   // Generate month options dynamically
   const monthOptions = Array.from({ length: 12 }, (_, index) => index + 1);
-
-  useEffect(() => {
-    fetchAllColumns();
-  }, []);
-
-  if (isFetching)
-    return (
-      <div className="flex h-screen items-center justify-center">
-        <ReactLoading type="bars" color="#2563EB" />
-      </div>
-    );
 
   return (
     <section className="w-full py-10 bg-white font-sans">
@@ -150,7 +142,7 @@ export default function Columns() {
               paginate(
                 currentPage < Math.ceil(filteredPosts.length / postsPerPage)
                   ? currentPage + 1
-                  : currentPage
+                  : currentPage,
               )
             }
           >
