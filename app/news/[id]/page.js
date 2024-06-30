@@ -95,7 +95,10 @@ export default function Post({ params }) {
           {" "}
           {`< Go back`}
         </button>
-        <h1 className="text-3xl md:text-5xl font-bold dark:text-blue text-center my-12 flex-justify">
+        <h1
+          className="text-3xl md:text-5xl font-bold dark:text-blue text-center my-12 flex-justify"
+          style={{ lineHeight: 1.5 }}
+        >
           {metaData.title}
         </h1>
         <p>
