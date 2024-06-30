@@ -1,9 +1,7 @@
 "use client";
 import Head from "next/head";
-import Layout from "../../../components/layout";
 import Date from "../../../lib/date";
 import Image from "next/image";
-import { useState, useEffect } from "react";
 import { Render } from "@9gustin/react-notion-render";
 import ReactLoading from "react-loading";
 import { useQueries } from "@tanstack/react-query";
