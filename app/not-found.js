@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export default function NotFound() {
-  return (
-    <h1 class="text-center text-5xl">not-found</h1>
-  )
+  return <h1 className="text-center text-5xl">not-found</h1>;
 }
