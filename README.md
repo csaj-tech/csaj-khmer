@@ -31,6 +31,7 @@ We welcome contributions from anyone and are grateful for any help. If you would
    - Chhengnay Ich [E-mail](mailto:chhengnay112@gmail.com)[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40choasara1)](https://twitter.com/choasara1)
    - Tainglong Ly [E-mail](mailto:lytanglong5@gmail.com)[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40TainglongL)](https://twitter.com/TainglongL)
    - David Pich [E-mail](mailto:davidpich.kh@gmail.com)[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40aiosym)](https://twitter.com/aiosym)
+   - Ouk Outdam [E-mail](mailto:outdam.ouk103@gmail.com)
    - Vimeanseth Thorng [E-mail](mailto:vimeanseththorngstf@gmail.com)
 
 Please feel free to contact the core members if you have any questions or concerns about the project.
