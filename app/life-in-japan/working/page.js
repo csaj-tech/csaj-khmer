@@ -19,7 +19,7 @@ export default function WorkingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Applying for the work permit
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   In order to be able to work in Japan, it is necessary to apply
                   for a work permit (Permission to engage in activity other than
                   that permitted in status of residence previously granted. The
@@ -41,11 +41,11 @@ export default function WorkingPage() {
                   </a>
                   .
                 </p>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   There are two ways to proceed with the application:
                 </p>
 
-                <ol className="list-inside list-decimal px-5 md:px-0 text-left md:text-justify text-gray-700">
+                <ol className="list-inside list-decimal px-5 md:px-0 text-left text-gray-700">
                   <li>
                     Before receiving your residence card: fill out the
                     application form before coming to Japan and give it to the
@@ -58,7 +58,7 @@ export default function WorkingPage() {
                     it to the immigration bureau.{" "}
                   </li>
                 </ol>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   It is recommended that you apply for a work permit at the
                   airport because if you wait until you receive your residence
                   card and are already in the country, it can take up to a month
@@ -88,13 +88,13 @@ export default function WorkingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Working limitations and restricted jobs{" "}
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   The maximum working hour as a student is 28 hours a week.
                   Moreover, as a student, you are not allowed to partake in jobs
                   related to adult entertainment and sex trade. These types of
                   jobs would include the following:
                 </p>
-                <ul className="list-inside list-disc px-5 md:px-0 text-left md:text-justify text-gray-700">
+                <ul className="list-inside list-disc px-5 md:px-0 text-left text-gray-700">
                   <li>Bars(restaurants that serve alcohol are fine)</li>
                   <li>Hostess bars or host clubs </li>
                   <li>Video game arcades</li>
@@ -103,7 +103,7 @@ export default function WorkingPage() {
                   <li>Adult goods or video stores</li>
                   <li>Massage parlors</li>
                 </ul>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   Please be aware that just working in the same venue is
                   considered illegal even if you do not engage in any kind of
                   inappropriate acts, just working in the same venue is
@@ -116,7 +116,7 @@ export default function WorkingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Possible English-speaking jobs
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   Besides the prohibited employment mentioned above, students
                   can work in any postings from being clerks at convenience
                   stores to private tutoring. However, these jobs usually
@@ -169,7 +169,7 @@ export default function WorkingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Be aware of scams!
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   There has been an increase in scam activities where people
                   will give you money in exchange for borrowing your personal
                   documents. They could use your personal documents to conduct
@@ -177,18 +177,18 @@ export default function WorkingPage() {
                   anything with your name on it to another person. These
                   personal documents includes:
                 </p>
-                <ul className="list-inside list-disc text-left md:text-justify text-gray-700">
+                <ul className="list-inside list-disc text-left text-gray-700">
                   <li>Residence card</li>
                   <li>Bank book </li>
                   <li>ATM card</li>
                   <li>Passport</li>
                   <li>Driving license</li>
                 </ul>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   Organized crime groups also target foreign students to carry
                   out simple tasks in exchange for money such as:
                 </p>
-                <ul className="list-inside list-disc text-left md:text-justify text-gray-700">
+                <ul className="list-inside list-disc text-left text-gray-700">
                   <li>Withdrawing money using someone else’s ATM card</li>
                   <li>
                     Ordering products online using someone else’s information
@@ -199,7 +199,7 @@ export default function WorkingPage() {
                     later
                   </li>
                 </ul>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   Please be careful and don’t fall for such things. There are
                   plenty of ways to make honest money in Japan, so only work
                   with reputable companies. If you are unsure about job offers,
@@ -223,7 +223,7 @@ export default function WorkingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Recruitments
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   When it comes to working in Japan, the most important thing to
                   keep in mind is recruitment. Job hunting should start as soon
                   as recruitments are available. After all, the early bird
@@ -277,7 +277,7 @@ export default function WorkingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Knowing Japanese is a huge advantage
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   This is a no-brainer; we are living in Japan, of course
                   knowing Japanese is beneficial. So, for those who want to work
                   in Japan, it’s good to take Japanese language courses
@@ -297,7 +297,7 @@ export default function WorkingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Japanese work permit
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   Graduates who are entering the workforce must remember to
                   apply for a work permit or employment visa as the residence
                   card with ‘Student’ status becomes ineffective immediately
@@ -308,7 +308,7 @@ export default function WorkingPage() {
                   may vary from visa to visa, some general requirements when
                   applying for a work permit in Japan are:
                 </p>
-                <ul className="list-inside list-disc text-left md:text-justify text-gray-700">
+                <ul className="list-inside list-disc text-left text-gray-700">
                   <li>an offer of employment from a Japanese company</li>
                   <li>passport </li>
                   <li>visa application form</li>
@@ -325,24 +325,24 @@ export default function WorkingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Certificate of Eligibility
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   The Certificate of Eligibility is an essential document when
                   applying for any Japanese visa. This certificate is issued by
                   the Immigration Services Agency of Japan. You can submit this
                   form either in person or you can mail it. To obtain this
                   certificate, there are some documents you must submit:
                 </p>
-                <ul className="list-inside list-disc text-left md:text-justify text-gray-700">
+                <ul className="list-inside list-disc text-left text-gray-700">
                   <li>completed application form</li>
                   <li>passport-sized photograph</li>
                   <li>filled out and stamped the return envelope.</li>
                 </ul>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   Again, depending on your employment, there are additional
                   requirements to fulfill. For example, those applying for a
                   researcher visa need to provide the following:
                 </p>
-                <ul className="list-inside list-disc text-left md:text-justify text-gray-700">
+                <ul className="list-inside list-disc text-left text-gray-700">
                   <li>
                     material showing the outline of the recipient organization
                   </li>
@@ -355,10 +355,10 @@ export default function WorkingPage() {
                     position, and remuneration.
                   </li>
                 </ul>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   Meanwhile, those in the engineering field will need to show:
                 </p>
-                <ul className="list-inside list-disc text-left md:text-justify text-gray-700">
+                <ul className="list-inside list-disc text-left text-gray-700">
                   <li>
                     copies of the company registration and a statement of profit
                     and loss of the recipient organization
@@ -378,7 +378,7 @@ export default function WorkingPage() {
                     and the remuneration.
                   </li>
                 </ul>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] md:leading-none text-gray-700 md:text-lg text-left">
                   For a complete list of documents required for each Japan work
                   permit visa application form, please visit the{" "}
                   <a
@@ -398,4 +398,3 @@ export default function WorkingPage() {
     </>
   );
 }
-

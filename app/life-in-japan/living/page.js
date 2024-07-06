@@ -19,7 +19,7 @@ export default function LivingPage() {
                 <h3 className="text-2xl px-5 font-bold leading-7 md:px-0 text-gray-600">
                   Culture
                 </h3>
-                <p className="px-5 text-left text-base font-normal leading-[20px] text-gray-700 md:text-lg md:px-0 md:text-justify">
+                <p className="px-5 text-left text-base font-normal leading-[20px] text-gray-700 md:text-lg md:px-0">
                   Japanese culture shines among rich East Asian cultures with
                   its unique and fascinating blend of ancient traditions and
                   modern innovations. Japanese culture, from its distinctive
@@ -40,7 +40,7 @@ export default function LivingPage() {
                 <h3 className="text-2xl px-5 font-bold leading-7 text-gray-600 md:px-0">
                   Language
                 </h3>
-                <p className="text-base px-5 text-left font-normal leading-[20px] text-gray-700 md:text-lg md:text-justify md:px-0">
+                <p className="text-base px-5 text-left font-normal leading-[20px] text-gray-700 md:text-lg md:px-0">
                   The roots of the Japanese language remain unclear, despite
                   several arguments regarding the origins of the language. The
                   Japanese writing system consists of three different character
@@ -57,7 +57,7 @@ export default function LivingPage() {
                 <h3 className="text-2xl px-5 font-bold leading-7 text-gray-600 md:px-0">
                   Religion
                 </h3>
-                <p className="text-base px-5 text-left font-normal leading-[20px] text-gray-700 md:text-lg md:px-0 md:text-justify">
+                <p className="text-base px-5 text-left font-normal leading-[20px] text-gray-700 md:text-lg md:px-0 ">
                   Japan has no official religion as stated in the constitution,
                   compared to Cambodia. However, Shinto and Buddhism are Japan’s
                   two major religions. Although the majority of the Japanese
@@ -75,14 +75,14 @@ export default function LivingPage() {
                 <h3 className="text-2xl font-bold leading-7 text-gray-600">
                   Way of Life
                 </h3>
-                <p className="text-base font-normal text-left leading-[20px] text-gray-700 md:text-lg md:text-justify">
+                <p className="text-base font-normal text-left leading-[20px] text-gray-700 md:text-lg ">
                   Japanese ways of life are shaped by a variety of cultural
                   factors, including traditional values, modern influences, and
                   the country’s unique history and geography. However, there are
                   several key aspects of Japanese ways of life which we can
                   emphasize:
                 </p>
-                <ul className="list-inside list-decimal text-justify text-gray-700">
+                <ul className="list-inside list-decimal text-gray-700">
                   <li>
                     <b>Respect for others</b>: this is reflected in the
                     country’s formal etiquette, which emphasizes polite
@@ -134,7 +134,7 @@ export default function LivingPage() {
             <div className="px-5 md:px-none">
               <div className="relative w-full mt-6 overflow-hidden md:mt-1 md:w-9/12">
                 <div className="w-full space-y-6 text-gray-700">
-                  <p className="text-base text-left font-normal leading-[20px] text-gray-700 md:text-lg md:text-justify">
+                  <p className="text-base text-left font-normal leading-[20px] text-gray-700 md:text-lg">
                     In Japan, apartments are usually rented through real estate
                     agents rather than landlords. You may find different
                     showcases through listings of available apartments in the
@@ -147,13 +147,13 @@ export default function LivingPage() {
                     and non-refundable fees have to be paid, often totaling two
                     or more months’ rent, depending on the company’s policies:
                   </p>
-                  <ul className="list-inside list-disc text-left md:text-justify text-gray-700">
+                  <ul className="list-inside list-disc text-left text-gray-700">
                     <li>Reservation fee (tetsukekin)</li>
                     <li>Deposit (shikikin)</li>
                     <li>Key money (reikin)</li>
                     <li>Service fee (chukai tesuryo)</li>
                   </ul>
-                  <p className="text-base text-left font-normal leading-[20px] text-gray-700 md:text-lg md:text-justify">
+                  <p className="text-base text-left font-normal leading-[20px] text-gray-700 md:text-lg">
                     In most cases, apartments come unfurnished, utilities are
                     not included in the rent, pets may or may not be allowed.
                     However, there are real estate companies, which specifically
@@ -177,7 +177,7 @@ export default function LivingPage() {
 
             <div className="relative w-full mt-6 overflow-hidden md:mt-1 md:w-9/12">
               <div className="w-full space-y-6 text-gray-700">
-                <p className="px-5 text-base font-normal text-left leading-[20px] text-gray-700 md:text-lg md:px-0 md:text-justify">
+                <p className="px-5 text-base font-normal text-left leading-[20px] text-gray-700 md:text-lg md:px-0">
                   While public transportation is commonly popular in Japan,
                   GoogleMap or other navigation maps may be very helpful for the
                   new unfamiliar residents in Japan. In GoogleMap, you may find
@@ -216,7 +216,7 @@ export default function LivingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Postal Service
                 </h3>
-                <p className="px-5 md:px-0 text-base text-left leading-0 font-normal md leading-[20px] text-gray-700 md:text-lg md:text-justify">
+                <p className="px-5 md:px-0 text-base text-left leading-0 font-normal md leading-[20px] text-gray-700 md:text-lg">
                   Post offices provide a range of postal services, including the
                   shipping of postcards, letters, parcels and register mail, as
                   well as savings and insurance services. Besides Japan Post,
@@ -238,7 +238,7 @@ export default function LivingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Delivery Service
                 </h3>
-                <p className="px-5 md:px-0 text-base text-left leading-0 font-normal md leading-[20px] text-gray-700 md:text-lg md:text-justify">
+                <p className="px-5 md:px-0 text-base text-left leading-0 font-normal md leading-[20px] text-gray-700 md:text-lg">
                   Yamato Transport is a leading convenient delivery
                   service-provider in Japan. Through this service-provider, you
                   may be able to deliver a range of goods, including regular
@@ -263,7 +263,7 @@ export default function LivingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Banking Service
                 </h3>
-                <p className="px-5 md:px-0 text-base text-left font-normal md leading-[20px] text-gray-700 md:text-lg md:text-justify">
+                <p className="px-5 md:px-0 text-base text-left font-normal md leading-[20px] text-gray-700 md:text-lg">
                   Banking services in Japan are conventional but a little less
                   convenient, especially for non-Japanese speakers. Among
                   several big banks in Japan, Jpan Post Bank is usually used by
@@ -304,7 +304,7 @@ export default function LivingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Accommodation
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] text-gray-700 md:text-lg text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] text-gray-700 md:text-lg">
                   By no doubt, Japan has been known for its high living costs,
                   whereas Tokyo has been on the list of the world’s top ten most
                   expensive cities. The nationwide average monthly rent, not
@@ -322,7 +322,7 @@ export default function LivingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Connectivity
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] text-gray-700 md:text-lg text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] text-gray-700 md:text-lg">
                   Whereas mobile pounds are readily available to those with a
                   valid residence card and a Japanese bank account, conventional
                   subscription plans are available from around 6,000 yen a month
@@ -338,7 +338,7 @@ export default function LivingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Groceries and eating out
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal leading-[20px] text-gray-700 md:text-lg text-justify">
+                <p className="px-5 md:px-0 text-base font-normal leading-[20px] text-gray-700 md:text-lg">
                   There is not much difference between home cooking or eating
                   out for a single person. As local supermarkets are relatively
                   inexpensive for typical Japanese food like seasonal vegetables
@@ -349,7 +349,7 @@ export default function LivingPage() {
                   the total monthly expense may be around 10,000 yen to 12,000
                   yen for a decent lifestyle.
                 </p>
-                <p className="px-5 md:px-0 text-base text-left font-normal leading-1 text-gray-700 md:text-lg md:text-justify">
+                <p className="px-5 md:px-0 text-base text-left font-normal leading-1 text-gray-700 md:text-lg">
                   Supported reference:{" "}
                   <a
                     className="underline dark:text-blue-500 hover:no-underline"
@@ -366,4 +366,3 @@ export default function LivingPage() {
     </>
   );
 }
-

@@ -27,7 +27,7 @@ export default function Postblock({ post }) {
             {post.title}
           </h2>
         </Link>
-        <p className="mb-4 text-gray-700 text-justify">{post.abstract}</p>
+        <p className="mb-4 text-gray-700">{post.abstract}</p>
         <Link href={`/news/${post.id}`} className="font-sans underline">
           Read More
         </Link>

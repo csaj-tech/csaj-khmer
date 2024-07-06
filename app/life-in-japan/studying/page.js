@@ -19,7 +19,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0  text-2xl font-bold leading-7 text-gray-600">
                   World-class education
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-lg text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-lg text-gray-700 md:text-lg leading-[20px] text-left">
                   Japan is undoubtedly a top destination for pursuing higher
                   education, thanks to its world-class education and renowned
                   universities. The country offers a diverse range of academic
@@ -32,7 +32,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Rich Culture and Tradition
                 </h3>
-                <p className="px-5 md:px-0  text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0  text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   One of the greatest things about studying abroad is being able
                   to immerse yourself in the country’s culture and language.
                   With that being said, Japan has a rich and vibrant culture
@@ -44,7 +44,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Cuisine
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   Speaking of Japanese food, we all might have come across a few
                   such as sushi, ramen, mochi, etc. However, a typical japanese
                   meal usually consists of rice, miso soup (fermented soy-bean
@@ -59,7 +59,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Safe and Welcoming Environment
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   With no surprise, Japan ranks as number one in terms of the
                   safest country in the world with its low crime rate and safe
                   environment. This creates an ideal environment for students to
@@ -71,7 +71,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Career Opportunities
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   Home to some of the world’s renowned institutions and
                   companies, Japan is also a land of numerous opportunities
                   after graduation.
@@ -92,7 +92,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Academic Programs
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   Selecting the right program is a crucial first step on your
                   journey.Depending on your major, there are various programs
                   such as MEXT scholarships, JASSO program, and others, where
@@ -111,7 +111,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Language
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   Regardless of your program, in order to be able to communicate
                   effectively and navigate around, language acts as a bridge.
                   While many Japanese study the English language in school, the
@@ -131,7 +131,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Documentation
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   It is never too early to start preparing for the paperwork
                   ahead of time to avoid procrastination and missing deadlines.
                   Some important documents might include passport, birth
@@ -146,7 +146,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Budgeting and Finance
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   I think most students might be wondering how much it costs to
                   fund your studies in Japan and how much money you should
                   prepare. While there is no real answer to this, the tuition
@@ -177,7 +177,7 @@ export default function StudyingPage() {
 
             <div className="relative w-full mt-6 overflow-hidden md:mt-1 md:w-9/12">
               <div className="w-full space-y-6 text-gray-700 pb-8">
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   Now that you have arrived in Japan, this is where the real
                   game begins. Here are some few points to note to help you
                   assimilate to this new land.
@@ -185,7 +185,7 @@ export default function StudyingPage() {
               </div>
 
               <div className="w-full space-y-6 text-gray-700 pb-8">
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   Life here starts a bit later than in Cambodia meaning that a
                   typical school day starts around 9am lasting until 4pm with
                   about an hour lunch break in between. Outside of classes, many
@@ -201,7 +201,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Culture
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   Japanese culture values respect, discipline and discipline,
                   and these core values are also reflected in student life.
                   Students are expected to abide by the school rules, respect
@@ -213,7 +213,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Living Expense
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   In addition to settling in, finance is another important
                   aspect to consider. While most students come here on a
                   scholarship program, it is good to note that you should keep
@@ -227,7 +227,7 @@ export default function StudyingPage() {
                 <h3 className="px-5 md:px-0 text-2xl font-bold leading-7 text-gray-600">
                   Having a Concrete Emotional Support System
                 </h3>
-                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left md:text-justify">
+                <p className="px-5 md:px-0 text-base font-normal md:leading-none text-gray-700 md:text-lg leading-[20px] text-left">
                   While studying abroad sounds like an exciting adventure, the
                   reality is readjusting to a new environment, climate and
                   culture requires patience and resilience. There will be times
@@ -251,4 +251,3 @@ export default function StudyingPage() {
     </>
   );
 }
-

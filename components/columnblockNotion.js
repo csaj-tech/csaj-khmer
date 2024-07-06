@@ -20,7 +20,7 @@ export default function ColumnblockNotion({ post }) {
             {post.title}
           </h2>
         </a>
-        <p className="mb-4 text-gray-700 text-justify">{post.abstract}</p>
+        <p className="mb-4 text-gray-700">{post.abstract}</p>
         <a href={`/columns/${post.id}`} className="font-sans underline">
           Read More
         </a>
