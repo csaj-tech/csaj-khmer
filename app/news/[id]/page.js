@@ -63,7 +63,7 @@ export default function Post({ params }) {
       <Head>
         <title>{metaData.title}</title>
       </Head>
-      <article className="propse prose-xl pt-12 px-12 text-justify font-sans">
+      <article className="propse prose-xl pt-12 px-12 font-sans">
         {/* section of post to visualize metadata (author, title, publish date) */}
         <button
           onClick={handleGoBack}
