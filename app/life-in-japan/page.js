@@ -29,7 +29,7 @@ export default function LifeInJapan() {
               <h3 className="text-3xl font-semibold sm:text-4xl text-blue-400">
                 <a href="/life-in-japan/living"> Living in Japan</a>
               </h3>
-              <p className="text-lg text-gray-600 text-left md:text-justify pb-5 md:pb-0">
+              <p className="text-lg text-gray-600 text-left pb-5 md:pb-0">
                 Japanese culture shines among rich East Asian cultures with its
                 unique and fascinating blend of ancient traditions and modern
                 innovations. Japanese culture, from its distinctive cuisine and
@@ -66,7 +66,7 @@ export default function LifeInJapan() {
               <h3 className="text-3xl font-semibold sm:text-4xl text-teal-600">
                 <a href="/life-in-japan/studying"> Studying in Japan</a>
               </h3>
-              <p className="text-lg text-left text-gray-600 md:text-justify pb-5 md:pb-0">
+              <p className="text-lg text-left text-gray-600 pb-5 md:pb-0">
                 Japan is undoubtedly a top destination for pursuing higher
                 education, thanks to its world-class education and renowned
                 universities. The country offers a diverse range of academic
@@ -87,7 +87,7 @@ export default function LifeInJapan() {
               <h3 className="text-3xl font-semibold sm:text-4xl text-violet-600">
                 <a href="/life-in-japan/working"> Working in Japan</a>
               </h3>
-              <p className="text-lg text-left text-gray-600 md:text-justify pb-5 md:pb-0">
+              <p className="text-lg text-left text-gray-600 pb-5 md:pb-0">
                 In order to be able to work in Japan, it is necessary to apply
                 for a work permit (Permission to engage in activity other than
                 that permitted in status of residence previously granted. The
