@@ -16,7 +16,7 @@ export default function Posthighlight({ post }) {
         <p className="mb-2 text-sm font-sans tracking-tight md:tracking-widest text-gray-500">
           Written on {post.date}
         </p>
-        <p className="text-gray-700 text-left md:text-justify">
+        <p className="text-gray-700 text-left">
           <a href={`/news/${post.id}`} className="text-ms">
             <span>{post.abstract}</span>
           </a>
