@@ -25,7 +25,10 @@ export default function Navbar() {
           <Link href="/news" className="text-red-400 hover:text-red-600">
             News
           </Link>
-          <Link href="/life-in-japan" className="text-red-400 hover:text-red-600">
+          <Link
+            href="/life-in-japan"
+            className="text-red-400 hover:text-red-600"
+          >
             Life in Japan
           </Link>
           <Link href="/about" className="text-red-400 hover:text-red-600">
@@ -36,7 +39,7 @@ export default function Navbar() {
             target="_blank"
             className="text text-blue-700 hover:text-blue-900"
           >
-            Join Us
+            Student Survey
           </a>
         </div>
       </nav>
@@ -94,7 +97,7 @@ export default function Navbar() {
             target="_blank"
             className="block py-1 text-blue-700 hover:text-blue-900 text-2xl"
           >
-            Join Us
+            Student Survey
           </a>
         </div>
       )}
