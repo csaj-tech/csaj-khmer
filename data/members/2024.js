@@ -3,6 +3,11 @@
 
 const leadingMembers = [
   {
+    position: "President",
+    name: "Seng Vouchleang",
+    imageUrl: "/images/structures/2024/seng_Vouchleang.jpg",
+  },
+  {
     position: "Vice-President",
     name: "Sreynet Han",
     imageUrl: "/images/structures/2024/Han_Sreynet.jpg",
@@ -13,15 +18,9 @@ const leadingMembers = [
     imageUrl: "/images/structures/2024/Chrea_sophea.jpg",
   },
   {
-    position: "President",
-    name: "Seng Vouchleang",
-    imageUrl: "/images/structures/2024/seng_Vouchleang.jpg",
-  },
-
-  {
     position: "Vice-President",
     name: "Dane Has",
-    imageUrl: "/images/structures/2024/Dane_has.jpg",
+    imageUrl: "/images/structures/2024/Has_Dane.jpg",
   },
   {
     position: "Vice-President",
@@ -89,44 +88,255 @@ const secretariatOfficers = [
   },
 ];
 
-const committeeChairs = [
+const advisoryBoard = [
   {
-    position: "Chair of Cultural Committee",
-    name: "Khoeun Sovanvatey",
-    imageUrl: "/images/structures/2024/Sovanvatey_Khoeun.jpg",
+    position: "CSAJ President 2014",
+    name: "Yem Vibol",
+    imageUrl: "/images/structures/2024/Yem_Vibol.jpg",
   },
   {
-    position: "Chair of Educational Committee",
-    name: "Pen Nethi",
-    imageUrl: "/images/structures/2024/pen_nethi.jpg",
+    position: "KSAK President 2014",
+    name: "Sun Sreychou",
+    imageUrl: "/images/structures/2024/Sun_Sreychou.jpg",
   },
   {
-    position: "Chair of Media and Content Creator Committee",
-    name: "Thorng Vimeanseth",
-    imageUrl: "/images/structures/2024/Vimeanseth_Thorng.jpg",
+    position: "CSAK Vice-President 2015",
+    name: "Choeung Taisour",
+    imageUrl: "/images/structures/2024/Choeung_Taisour.jpg",
   },
   {
-    position: "Member of Public Relation Committee",
+    position: "CSAJ President 2019",
+    name: "Ea Limseang",
+    imageUrl: "/images/structures/2024/Ea_Limseang.jpg",
+  },
+  {
+    position: "CSAJ Secretary & Event-Planning Committee 2019",
+    name: "Veng Chhunheng",
+    imageUrl: "/images/structures/2024/Veng_Chhunheng.jpg",
+  },
+  {
+    position: "KSAK President 2021",
+    name: "Tieng Chansocheat",
+    imageUrl: "/images/structures/2024/Tieng_Chansocheat.jpg",
+  },
+
+  {
+    position: "CSAJ President 2022",
+    name: "Hem Sethai",
+    imageUrl: "/images/structures/2024/Hem_Sethai.jpg",
+  },
+
+  {
+    position: "CSAJ President 2023",
+    name: "Ouch Som Onn",
+    imageUrl: "/images/structures/2024/Ouch_Som_Onn.jpg",
+  },
+  {
+    position: "CSAJ Vice-President 2023",
+    name: "Srey Sokuncharia",
+    imageUrl: "/images/structures/2024/Srey_Sokuncharia.jpg",
+  },
+  {
+    position: "CSAJ Secretary 2023",
+    name: "Sou yaly",
+    imageUrl: "/images/structures/2024/Sou_Yaly.jpg",
+  },
+];
+
+const prCommittee = [
+  {
+    position: "Member",
+    name: "Sreynet Han",
+    imageUrl: "/images/structures/2024/Han_Sreynet.jpg",
+  },
+  {
+    position: "Member",
     name: "Pech Longsonita",
     imageUrl: "/images/structures/2024/Pechlong_sonita.jpg",
   },
-  {
-    position: "Member of Student Service Committee",
-    name: "Prin Sokmokta",
-    imageUrl: "/images/structures/2024/prin_sokmokta.jpg",
-  },
-  {
-    position: "Member of Event Planning Committee",
-    name: "Phan Phearamony",
-    imageUrl: "/images/structures/2024/Pheara_Mony.jpg",
-  },
-  {
-    position: "Chair of Information Technology Committee",
-    name: "Pich David",
-    imageUrl: "/images/structures/2024/David_Pich.jpg",
-  },
+];
 
-  // Add more committee chairs as needed
+const mediaCommittee = [
+  {
+    position: "Chair",
+    name: "Thorng Vimeanseth",
+    imageUrl: "/images/structures/2024/Thorng_Vimeanseth.jpg",
+  },
+  {
+    position: "Member",
+    name: "Ouk Outdam",
+    imageUrl: "/images/structures/2024/Ouk_Outdam.jpg",
+  },
+  {
+    position: "Member",
+    name: "Has Dane",
+    imageUrl: "/images/structures/2024/Has_Dane.jpg",
+  },
+  {
+    position: "Member",
+    name: "Ma Livann",
+    imageUrl: "/images/structures/2024/Ma_Livann.jpg",
+  },
+  {
+    position: "Member",
+    name: "Prin Sokmokta",
+    imageUrl: "/images/structures/2024/Prin_Sokmokta.jpg",
+  },
+  {
+    position: "Member",
+    name: "Siev Lina",
+    imageUrl: "/images/structures/2024/Siev_Lina.jpg",
+  },
+  {
+    position: "Member",
+    name: "Seng Mengkong",
+    imageUrl: "/images/structures/2024/Seng_Mengkong.jpg",
+  },
+  {
+    position: "Member",
+    name: "Suon Sreynit",
+    imageUrl: "/images/structures/2024/Suon_Sreynit.jpg",
+  },
+  {
+    position: "Member",
+    name: "Han Soraksmey",
+    imageUrl: "/images/structures/2024/Han_Soraksmey.jpg",
+  },
+  {
+    position: "Member",
+    name: "Mom Sopheakpolin",
+    imageUrl: "/images/structures/2024/Mom_Sopheakpolin.jpg",
+  },
+];
+
+const eventCommittee = [
+  {
+    position: "Member",
+    name: "Phan Phearamony",
+    imageUrl: "/images/structures/2024/Phan_Phearamony.jpg",
+  },
+  {
+    position: "Member",
+    name: "Siev Lina",
+    imageUrl: "/images/structures/2024/Siev_Lina.jpg",
+  },
+  {
+    position: "Member",
+    name: "Ngov Yuseng",
+    imageUrl: "/images/structures/2024/Ngov_Yuseng.jpg",
+  },
+  {
+    position: "Member",
+    name: "Hout Seaklay",
+    imageUrl: "/images/structures/2024/Hout_Seaklay.jpg",
+  },
+  {
+    position: "Member",
+    name: "Vuthy Chantreapich",
+    imageUrl: "/images/structures/2024/Vuthy_Chantreapich.jpg",
+  },
+  {
+    position: "Member",
+    name: "Mom Sopheakpolin",
+    imageUrl: "/images/structures/2024/Mom_Sopheakpolin.jpg",
+  },
+  {
+    position: "Member",
+    name: "Nary Vitou",
+    imageUrl: "/images/structures/2024/Nary_Vitou.jpg",
+  },
+];
+
+const educationCommittee = [
+  {
+    position: "Chair",
+    name: "Pen Nethi",
+    imageUrl: "/images/structures/2024/Pen_Nethi.jpg",
+  },
+  {
+    position: "Member",
+    name: "Choeng Veyseng",
+    imageUrl: "/images/structures/2024/Choeng_Veyseng.jpg",
+  },
+  {
+    position: "Member",
+    name: "Vuthy Chantreapich",
+    imageUrl: "/images/structures/2024/Vuthy_Chantreapich.jpg",
+  },
+  {
+    position: "Member",
+    name: "Mom Sopheakpolin",
+    imageUrl: "/images/structures/2024/Mom_Sopheakpolin.jpg",
+  },
+];
+
+const culturalCommittee = [
+  {
+    position: "Chair",
+    name: "Khoeun Sovanvatey",
+    imageUrl: "/images/structures/2024/Khoeun_Sovanvatey.jpg",
+  },
+  {
+    position: "Member",
+    name: "Han Sreynet",
+    imageUrl: "/images/structures/2024/Han_Sreynet.jpg",
+  },
+  {
+    position: "Member",
+    name: "Nith Sreynou",
+    imageUrl: "/images/structures/2024/Nith_Sreynou.jpg",
+  },
+  {
+    position: "Member",
+    name: "Suon Sreynit",
+    imageUrl: "/images/structures/2024/Suon_Sreynit.jpg",
+  },
+  {
+    position: "Advisor",
+    name: "Chhoeur Pryalen",
+    imageUrl: "/images/structures/2024/Chhoeur_Pryalen.jpg",
+  },
+];
+
+const studentServiceCommittee = [
+  {
+    position: "Member",
+    name: "Choeng Veyseng",
+    imageUrl: "/images/structures/2024/Choeng_Veyseng.jpg",
+  },
+  {
+    position: "Member",
+    name: "Prin Sokmokta",
+    imageUrl: "/images/structures/2024/Prin_Sokmokta.jpg",
+  },
+  {
+    position: "Member",
+    name: "Sroy Lyly",
+    imageUrl: "/images/structures/2024/Sroy_Lyly.jpg",
+  },
+];
+
+const itCommittee = [
+  {
+    position: "Chair",
+    name: "Pich David",
+    imageUrl: "/images/structures/2024/Pich_David.jpg",
+  },
+  {
+    position: "Member",
+    name: "Ich Chhengnay",
+    imageUrl: "/images/structures/2024/Ich_Chhengnay.jpg",
+  },
+  {
+    position: "Member",
+    name: "Ouk Outdam",
+    imageUrl: "/images/structures/2024/Ouk_Outdam.jpg",
+  },
+  {
+    position: "Member",
+    name: "Thorng Vimeanseth",
+    imageUrl: "/images/structures/2024/Thorng_Vimeanseth.jpg",
+  },
 ];
 
 const memberlist = [
@@ -143,8 +353,36 @@ const memberlist = [
     members: secretariatOfficers,
   },
   {
-    label: "Committees",
-    members: committeeChairs,
+    label: "Advisory Board",
+    members: advisoryBoard,
+  },
+  {
+    label: "Public Relations Committee",
+    members: prCommittee,
+  },
+  {
+    label: "Media & Content Creator Committee",
+    members: mediaCommittee,
+  },
+  {
+    label: "Event Planning Committee",
+    members: eventCommittee,
+  },
+  {
+    label: "Education Committee",
+    members: educationCommittee,
+  },
+  {
+    label: "Cultural Committee",
+    members: culturalCommittee,
+  },
+  {
+    label: "Student Services Committee",
+    members: studentServiceCommittee,
+  },
+  {
+    label: "IT Committee",
+    members: itCommittee,
   },
 ];
 export default memberlist;
