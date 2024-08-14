@@ -5,7 +5,7 @@ const leadingMembers = [
   {
     position: "President",
     name: "Seng Vouchleang",
-    imageUrl: "/images/structures/2024/seng_Vouchleang.jpg",
+    imageUrl: "/images/structures/2024/Seng_Vouchleang.jpg",
   },
   {
     position: "Vice-President",
@@ -35,7 +35,7 @@ const regionalAssociations = [
   {
     position: "President of CSAK",
     name: "Seng Vouchleang",
-    imageUrl: "/images/structures/2024/seng_Vouchleang.jpg",
+    imageUrl: "/images/structures/2024/Seng_Vouchleang.jpg",
   },
   {
     position: "President of KSAK",
