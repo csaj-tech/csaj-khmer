@@ -138,7 +138,7 @@ const advisoryBoard = [
   },
   {
     position: "CSAJ Secretary 2023",
-    name: "Sou yaly",
+    name: "Sou Yaly",
     imageUrl: "/images/structures/2024/Sou_Yaly.jpg",
   },
 ];
