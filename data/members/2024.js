@@ -212,6 +212,11 @@ const mediaCommittee = [
 const eventCommittee = [
   {
     position: "Member",
+    name: "Chrea Sophea",
+    imageUrl: "/images/structures/2024/Chrea_sophea.jpg",
+  },
+  {
+    position: "Member",
     name: "Phan Phearamony",
     imageUrl: "/images/structures/2024/Phan_Phearamony.jpg",
   },
@@ -278,8 +283,13 @@ const culturalCommittee = [
   },
   {
     position: "Member",
-    name: "Han Sreynet",
-    imageUrl: "/images/structures/2024/Han_Sreynet.jpg",
+    name: "Yon Sophakanha",
+    imageUrl: "/images/structures/2024/Yon_Sophakanha.jpg",
+  },
+  {
+    position: "Member",
+    name: "Thoun Nalen",
+    imageUrl: "/images/structures/2024/Thoun_Nalen.jpg",
   },
   {
     position: "Member",
@@ -314,6 +324,11 @@ const studentServiceCommittee = [
     name: "Sroy Lyly",
     imageUrl: "/images/structures/2024/Sroy_Lyly.jpg",
   },
+  {
+    position: "Member",
+    name: "Seng Sopheak",
+    imageUrl: "/images/structures/2024/Seng_Sopheak.jpg",
+  },
 ];
 
 const itCommittee = [
@@ -345,7 +360,7 @@ const memberlist = [
     members: leadingMembers,
   },
   {
-    label: "Regional Associations",
+    label: "Regional Presidents",
     members: regionalAssociations,
   },
   {
