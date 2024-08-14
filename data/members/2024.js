@@ -9,7 +9,7 @@ const leadingMembers = [
   },
   {
     position: "Vice-President",
-    name: "Sreynet Han",
+    name: "Han Sreynet",
     imageUrl: "/images/structures/2024/Han_Sreynet.jpg",
   },
   {
@@ -19,7 +19,7 @@ const leadingMembers = [
   },
   {
     position: "Vice-President",
-    name: "Dane Has",
+    name: "Has Dane",
     imageUrl: "/images/structures/2024/Has_Dane.jpg",
   },
   {
@@ -45,7 +45,7 @@ const regionalAssociations = [
   {
     position: "President of CSAN",
     name: "Sorn Channrat",
-    imageUrl: "/images/structures/2024/Channrat_Sorn.jpg",
+    imageUrl: "/images/structures/2024/Sorn_Channrat.jpg",
   },
   {
     position: "President of ACSK",
@@ -55,7 +55,7 @@ const regionalAssociations = [
   {
     position: "President of CSAH",
     name: "Set Sekkhapirath",
-    imageUrl: "/images/structures/2024/Sekkhapirath_Set.jpg",
+    imageUrl: "/images/structures/2024/Set_Sekkhapirath.jpg",
   },
   // Add more members as needed
 ];
@@ -64,7 +64,7 @@ const secretariatOfficers = [
   {
     position: "Secretary",
     name: "Ly Monivathana",
-    imageUrl: "/images/structures/2024/Monyvathana_Ly.jpg",
+    imageUrl: "/images/structures/2024/Ly_Monivathana.jpg",
   },
   {
     position: "Secretary",
@@ -78,8 +78,8 @@ const secretariatOfficers = [
   },
   {
     position: "Member",
-    name: "Manydine Ry",
-    imageUrl: "/images/structures/2024/Ry_manyDine.jpg",
+    name: "Ry Manydine",
+    imageUrl: "/images/structures/2024/Ry_Manydine.jpg",
   },
   {
     position: "Member",
@@ -146,7 +146,7 @@ const advisoryBoard = [
 const prCommittee = [
   {
     position: "Member",
-    name: "Sreynet Han",
+    name: "Han Sreynet",
     imageUrl: "/images/structures/2024/Han_Sreynet.jpg",
   },
   {
