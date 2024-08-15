@@ -5,21 +5,21 @@ const leadingMembers = [
   {
     position: "President",
     name: "Seng Vouchleang",
-    imageUrl: "/images/structures/2024/seng_Vouchleang.jpg",
+    imageUrl: "/images/structures/2024/Seng_Vouchleang.jpg",
   },
   {
     position: "Vice-President",
-    name: "Sreynet Han",
+    name: "Han Sreynet",
     imageUrl: "/images/structures/2024/Han_Sreynet.jpg",
   },
   {
     position: "Vice-President",
     name: "Chrea Sophea",
-    imageUrl: "/images/structures/2024/Chrea_sophea.jpg",
+    imageUrl: "/images/structures/2024/Chrea_Sophea.jpg",
   },
   {
     position: "Vice-President",
-    name: "Dane Has",
+    name: "Has Dane",
     imageUrl: "/images/structures/2024/Has_Dane.jpg",
   },
   {
@@ -35,27 +35,27 @@ const regionalAssociations = [
   {
     position: "President of CSAK",
     name: "Seng Vouchleang",
-    imageUrl: "/images/structures/2024/seng_Vouchleang.jpg",
+    imageUrl: "/images/structures/2024/Seng_Vouchleang.jpg",
   },
   {
     position: "President of KSAK",
     name: "Keo Sovan",
-    imageUrl: "/images/structures/2024/keo_Sovan.jpg",
+    imageUrl: "/images/structures/2024/Keo_Sovan.jpg",
   },
   {
     position: "President of CSAN",
     name: "Sorn Channrat",
-    imageUrl: "/images/structures/2024/Channrat_Sorn.jpg",
+    imageUrl: "/images/structures/2024/Sorn_Channrat.jpg",
   },
   {
     position: "President of ACSK",
     name: "Meakh Sovanborey",
-    imageUrl: "/images/structures/2024/sovan_borey.jpg",
+    imageUrl: "/images/structures/2024/Sovan_Borey.jpg",
   },
   {
     position: "President of CSAH",
     name: "Set Sekkhapirath",
-    imageUrl: "/images/structures/2024/Sekkhapirath_Set.jpg",
+    imageUrl: "/images/structures/2024/Set_Sekkhapirath.jpg",
   },
   // Add more members as needed
 ];
@@ -64,22 +64,22 @@ const secretariatOfficers = [
   {
     position: "Secretary",
     name: "Ly Monivathana",
-    imageUrl: "/images/structures/2024/Monyvathana_Ly.jpg",
+    imageUrl: "/images/structures/2024/Ly_Monivathana.jpg",
   },
   {
     position: "Secretary",
     name: "Ngor Chinhok",
-    imageUrl: "/images/structures/2024/Ngor_CHinhok.jpg",
+    imageUrl: "/images/structures/2024/Ngor_Chinhok.jpg",
   },
   {
     position: "Accountant",
     name: "Pech Longsonita",
-    imageUrl: "/images/structures/2024/Pechlong_sonita.jpg",
+    imageUrl: "/images/structures/2024/Pechlong_Sonita.jpg",
   },
   {
     position: "Member",
-    name: "Manydine Ry",
-    imageUrl: "/images/structures/2024/Ry_manyDine.jpg",
+    name: "Ry Manydine",
+    imageUrl: "/images/structures/2024/Ry_Manydine.jpg",
   },
   {
     position: "Member",
@@ -138,7 +138,7 @@ const advisoryBoard = [
   },
   {
     position: "CSAJ Secretary 2023",
-    name: "Sou yaly",
+    name: "Sou Yaly",
     imageUrl: "/images/structures/2024/Sou_Yaly.jpg",
   },
 ];
@@ -146,13 +146,13 @@ const advisoryBoard = [
 const prCommittee = [
   {
     position: "Member",
-    name: "Sreynet Han",
+    name: "Han Sreynet",
     imageUrl: "/images/structures/2024/Han_Sreynet.jpg",
   },
   {
     position: "Member",
     name: "Pech Longsonita",
-    imageUrl: "/images/structures/2024/Pechlong_sonita.jpg",
+    imageUrl: "/images/structures/2024/Pechlong_Sonita.jpg",
   },
 ];
 
@@ -213,7 +213,7 @@ const eventCommittee = [
   {
     position: "Member",
     name: "Chrea Sophea",
-    imageUrl: "/images/structures/2024/Chrea_sophea.jpg",
+    imageUrl: "/images/structures/2024/Chrea_Sophea.jpg",
   },
   {
     position: "Member",
