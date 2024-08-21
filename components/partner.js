@@ -9,6 +9,7 @@ const partner_logos = [
   "/images/partners/jac.jpeg",
   "/images/partners/cambodiafestival.jpg",
   "/images/partners/sbi.png",
+  "/images/partners/bp.jpg",
   // Add more logos as needed
 ];
 
