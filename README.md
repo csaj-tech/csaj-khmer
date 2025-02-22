@@ -33,5 +33,6 @@ We welcome contributions from anyone and are grateful for any help. If you would
    - David Pich (2023,2024) [E-mail](mailto:davidpich.kh@gmail.com)[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40aiosym)](https://twitter.com/aiosym)
    - Ouk Outdam (2024) [E-mail](mailto:outdam.ouk103@gmail.com)
    - Vimeanseth Thorng (2024) [E-mail](mailto:vimeanseththorngstf@gmail.com)
+   - Reasey Preyabott (2025) [E-mail](mailto:preyabottreasey@gmail.com)
 
 Please feel free to contact the core members if you have any questions or concerns about the project.
