@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const years = ["2023"];
+const years = ["2023", "2024"];
 
 function Page() {
   return (
