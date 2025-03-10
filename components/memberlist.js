@@ -27,12 +27,12 @@ export default function MemberList({ memberList }) {
       {memberList.map((group, idx) => (
         <section key={idx}>
           {
-            group.isSectionTitle === true ? (
-              <h2 className="text-4xl font-bold text-center mb-6 text-blue-600">
+            group.isSectionSubtitle === true ? (
+              <h2 className="text-3xl font-bold text-center mb-6 text-blue-500">
                 {group.label}
               </h2>
             ) : (
-              <h2 className="text-3xl font-bold text-center mb-6 text-blue-500">
+              <h2 className="text-4xl font-bold text-center mb-6 text-blue-600">
                 {group.label}
               </h2>
             )

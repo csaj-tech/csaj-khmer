@@ -76,7 +76,7 @@ const advisoryBoard = [
         imageUrl: "/images/structures/2023/chhoeur_pryalen.jpg"
     },
     {
-        position: <div>Administrative and Public Relations<br />Committee Advisor</div>,
+        position: <>Administrative and Public Relations<br />Committee Advisor</>,
         name: "Han Sreynet",
         imageUrl: "/images/structures/2024/Han_Sreynet.jpg"
     },
@@ -309,48 +309,55 @@ const memberlist = [
     {
         label: "Standing Committee",
         members: standingCommittee,
-        isSectionTitle: true
     },
     {
         label: "Executive Committee",
         members: executiveCommittee,
-        isSectionTitle: true
     },
     {
         label: "Advisory Board",
-        members: advisoryBoard
+        members: advisoryBoard,
+        isSectionSubtitle: true
     },
     {
         label: "Secretaries",
         members: secretaries,
+        isSectionSubtitle: true
     },
     {
         label: "Administrative and Public Relations Committee",
-        members: administrativeAndPublicRelationsCommittee
+        members: administrativeAndPublicRelationsCommittee,
+        isSectionSubtitle: true
     },
     {
         label: "Event Planning Committee",
-        members: eventPlanningCommittee
+        members: eventPlanningCommittee,
+        isSectionSubtitle: true
     },
     {
         label: "Student Service Committee",
-        members: studentServicesCommittee
+        members: studentServicesCommittee,
+        isSectionSubtitle: true
     },
     {
         label: "Cultural Committee",
-        members: culturalCommittee
+        members: culturalCommittee,
+        isSectionSubtitle: true
     },
     {
         label: "Media Committee",
-        members: mediaCommittee
+        members: mediaCommittee,
+        isSectionSubtitle: true
     },
     {
         label: "Education Committee",
-        members: educationCommittee
+        members: educationCommittee,
+        isSectionSubtitle: true
     },
     {
         label: "IT Committee",
-        members: itCommittee
+        members: itCommittee,
+        isSectionSubtitle: true
     }
 ]
 
