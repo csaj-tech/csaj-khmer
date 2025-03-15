@@ -56,6 +56,11 @@ const advisoryBoard = [
         imageUrl: "/images/structures/2024/Ouch_Som_Onn.jpg"
     },
     {
+        position: "Presidential Advisor",
+        name: "Chhem Solinda",
+        imageUrl: "/images/structures/2025/Chhem_Solinda.jpg"
+    },
+    {
         position: "Media Committee Advisor",
         name: "Neth Inrasothythep",
         imageUrl: "/images/structures/2025/Neth_Inrasothythep.jpg"
