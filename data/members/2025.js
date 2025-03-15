@@ -46,17 +46,17 @@ const executiveCommittee = [
 
 const advisoryBoard = [
     {
-        position: "Presidential Advisor",
+        position: "President's Advisor",
         name: "Yem Vibol",
         imageUrl: "/images/structures/2024/Yem_Vibol.jpg"
     },
     {
-        position: "Presidential Advisor",
+        position: "President's Advisor",
         name: "Ouch Som Onn",
         imageUrl: "/images/structures/2024/Ouch_Som_Onn.jpg"
     },
     {
-        position: "Presidential Advisor",
+        position: "President's Advisor",
         name: "Chhem Solinda",
         imageUrl: "/images/structures/2025/Chhem_Solinda.jpg"
     },
