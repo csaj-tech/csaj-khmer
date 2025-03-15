@@ -157,11 +157,6 @@ const eventPlanningCommittee = [
     },
     {
         position: "Member",
-        name: "Roeurn Rith",
-        imageUrl: "/images/structures/2025/Roeurn_Rith.jpg"
-    },
-    {
-        position: "Member",
         name: "Momsovann Nilyza",
         imageUrl: "/images/structures/2025/Momsovann_Nilyza.jpg"
     },
@@ -185,6 +180,11 @@ const studentServicesCommittee = [
     },
     {
         position: "Member",
+        name: "Chhor Tithmesa",
+        imageUrl: "/images/structures/2025/Chhor_Tithmesa.jpg"
+    },
+    {
+        position: "Member",
         name: "Phai Thun",
         imageUrl: "/images/structures/2025/Phai_Thun.jpg"
     },
@@ -197,6 +197,11 @@ const studentServicesCommittee = [
         position: "Member",
         name: "Kou Sovathanak",
         imageUrl: "/images/structures/2025/Kou_Sovathanak.jpg"
+    },
+    {
+        position: "Member",
+        name: "Roeurn Rith",
+        imageUrl: "/images/structures/2025/Roeurn_Rith.jpg"
     },
 ]
 
