@@ -16,7 +16,7 @@ export default function MemberList({ memberList }) {
               />
             </div>
             <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
-            <p className="text-gray-600">{member.position}</p>
+            <p className="text-gray-600 text-center">{member.position}</p>
           </div>
         </div>
       ))}
@@ -26,9 +26,17 @@ export default function MemberList({ memberList }) {
     <div className="space-y-10">
       {memberList.map((group, idx) => (
         <section key={idx}>
-          <h2 className="text-4xl font-bold text-center mb-6 text-blue-600">
-            {group.label}
-          </h2>
+          {
+            group.isSectionSubtitle === true ? (
+              <h2 className="text-3xl font-bold text-center mb-6 text-blue-500">
+                {group.label}
+              </h2>
+            ) : (
+              <h2 className="text-4xl font-bold text-center mb-6 text-blue-600">
+                {group.label}
+              </h2>
+            )
+          }
           {renderMembers(group.members)}
         </section>
       ))}
