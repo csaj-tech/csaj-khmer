@@ -6,23 +6,23 @@ const standingCommittee = [
     },
     {
         position: "Vice President",
-        name: "សុឹម សុខចំរើន",
-        imageUrl: "/facebook.png"
+        name: "Sim Sokchamroeun",
+        imageUrl: "/images/structures/2025/Sim_Sokchamroeun.jpg"
     },
     {
         position: "Vice President",
-        name: "ឡុង វណ្ណា",
-        imageUrl: "/facebook.png"
+        name: "Long Vanna",
+        imageUrl: "/images/structures/2025/Long_Vanna.jpg"
     },
     {
         position: "Vice President",
-        name: "លឹម សុីសុីមុីមុី",
-        imageUrl: "/facebook.png"
+        name: "Lim Sysy Meymey",
+        imageUrl: "/images/structures/2025/Lim_Sysy_Meymey.jpg"
     },
     {
         position: "Vice President",
-        name: "ផារ័ត្ន សត្យា",
-        imageUrl: "/facebook.png"
+        name: "Pharath Sathya",
+        imageUrl: "/images/structures/2025/Pharath_Sathya.jpg"
     },
 ];
 
@@ -57,8 +57,8 @@ const advisoryBoard = [
     },
     {
         position: "Media Committee Advisor",
-        name: "នេត ឥន្ទនរាសុទ្ធីដ្ឋេព",
-        imageUrl: "/facebook.png"
+        name: "Neth Inrasothythep",
+        imageUrl: "/images/structures/2025/Neth_Inrasothythep.jpg"
     },
     {
         position: "Event Planning Committee Advisor",
@@ -90,12 +90,12 @@ const secretaries = [
     },
     {
         position: "Secretary",
-        name: "Vuthy Chantreapich", // edit later
+        name: "Vuthy Chantreapich", 
         imageUrl: "/images/structures/2025/Vuthy_Chantreapich.jpg"
     },
     {
         position: "Secretary",
-        name: "Prin Sokmokta", // edit later
+        name: "Prin Sokmokta", 
         imageUrl: "/images/structures/2025/Prin_Sokmokta.jpg"
     }
 ]
