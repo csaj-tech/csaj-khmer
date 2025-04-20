@@ -41,6 +41,17 @@ export default function Footer() {
               alt="Telegram"
             />
           </a>
+          <a
+            href="http://www.youtube.com/@cambodiastudentsassociatio3757"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="md:h-10 w-14 md:w-auto flex justify-center"
+              src="/youtube.png"
+              alt="YouTube"
+            />
+          </a>
         </div>
       </div>
       {/* Left column for copyright */}
