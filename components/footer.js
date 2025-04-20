@@ -42,7 +42,7 @@ export default function Footer() {
             />
           </a>
           <a
-            href="http://www.youtube.com/@csajcambodianstudentsassoc8767"
+            href="http://www.youtube.com/@cambodiastudentsassociatio3757"
             target="_blank"
             rel="noopener noreferrer"
           >
