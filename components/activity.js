@@ -35,6 +35,7 @@ export default function Activity() {
 
   return (
     <section className="bg-white py-0 md:py-10">
+      {/* <div className="px-6 mx-auto max-w-7xl"> */}
       <div className="px-6 mx-auto max-w-7xl">
         <div className="text-center">
           <h1 className=" pb-4 text-xl font-bold leading-tight text-center md:text-4xl font-sans text-blue-600 py-12 md:py-12 md:mb-3">

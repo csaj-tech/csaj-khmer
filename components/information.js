@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Information() {
   return (
-    <>
-      <div className="p-6 mt-10 md:p-8 bg-white rounded-lg text-center">
+    <section className="bg-white">
+      <div className="px-6 mx-auto max-w-7xl">
+        <div className="p-6 mt-10 md:p-8 bg-white rounded-lg text-center shadow-sm">
         <h2 className="text-xl md:text-4xl font-bold text-blue-600 mb-8">
           Support Us
         </h2>
@@ -24,6 +25,7 @@ export default function Information() {
           </p>
         </div>
       </div>
+
 
       <div className="p-4 md:p-8 bg-white rounded-lg text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-4">
@@ -80,6 +82,7 @@ export default function Information() {
           </a>
         </p>
       </div>
-    </>
+      </div>
+    </section>
   );
 }
