@@ -16,11 +16,11 @@ export default function ColumnblockNotion({ post }) {
           {post.date}
         </p>
         <a href={`/columns/${post.id}`} className="block mb-3 hover:underline">
-          <h2 className="text-xl font-bold leading-7 text-center text-black transition-colors duration-200 hover:text-deep-purple-accent-700">
+          <h2 className="block text-xl font-bold leading-7 text-center text-black transition-colors duration-200 hover:text-deep-purple-accent-700 line-clamp-3 min-h-[5.625rem]">
             {post.title}
           </h2>
         </a>
-        <p className="mb-4 text-gray-700">{post.abstract}</p>
+        <p className="mb-4 text-gray-700 line-clamp-4 leading-normal min-h-[6rem]">{post.abstract}</p>
         <a href={`/columns/${post.id}`} className="font-sans underline">
           Read More
         </a>

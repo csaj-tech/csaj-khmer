@@ -8,7 +8,7 @@ export default function Posthighlight({ post }) {
         <h2 className="mb-2">
           <a
             href={`/news/${post.id}`}
-            className="text-2xl font-bold leading-tight tracking-tight"
+            className="block text-2xl font-bold leading-tight tracking-tight line-clamp-3 min-h-[5.625rem]"
           >
             {post.title}
           </a>
@@ -16,7 +16,7 @@ export default function Posthighlight({ post }) {
         <p className="mb-2 text-sm font-sans tracking-tight md:tracking-widest text-gray-500">
           Written on {post.date}
         </p>
-        <p className="text-gray-700 text-left">
+        <p className="text-gray-700 text-left line-clamp-4 leading-normal min-h-[6rem]">
           <a href={`/news/${post.id}`} className="text-ms">
             <span>{post.abstract}</span>
           </a>

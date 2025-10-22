@@ -23,11 +23,11 @@ export default function Postblock({ post }) {
           {post.date}
         </p>
         <Link href={`/news/${post.id}`} className="block mb-3 hover:underline">
-          <h2 className="text-xl font-bold leading-7 text-center text-black transition-colors duration-200 hover:text-deep-purple-accent-700">
+          <h2 className="block text-xl font-bold leading-7 text-center text-black transition-colors duration-200 hover:text-deep-purple-accent-700 line-clamp-3 min-h-[5.625rem]">
             {post.title}
           </h2>
         </Link>
-        <p className="mb-4 text-gray-700 truncate">{post.abstract}</p>
+        <p className="mb-4 text-gray-700 line-clamp-4 leading-normal min-h-[6rem]">{post.abstract}</p>
         <Link href={`/news/${post.id}`} className="font-sans underline">
           Read More
         </Link>
