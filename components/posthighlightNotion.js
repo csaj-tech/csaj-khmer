@@ -8,7 +8,7 @@ export default function Posthighlight({ post }) {
         <h2 className="mb-2">
           <a
             href={`/news/${post.id}`}
-            className="block text-2xl font-bold leading-tight tracking-tight line-clamp-3 min-h-[5.625rem]"
+            className="block text-xl font-bold leading-normal tracking-tight line-clamp-3 min-h-[5.625rem]"
           >
             {post.title}
           </a>
