@@ -16,7 +16,7 @@ export default function ColumnblockNotion({ post }) {
           {post.date}
         </p>
         <a href={`/columns/${post.id}`} className="block mb-3 hover:underline">
-          <h2 className="block text-xl font-bold leading-7 text-center text-black transition-colors duration-200 hover:text-deep-purple-accent-700 line-clamp-3 min-h-[5.625rem]">
+          <h2 className="block text-xl font-bold tracking-tight leading-normal text-center text-black transition-colors duration-200 hover:text-deep-purple-accent-700 line-clamp-3 min-h-[5.625rem]">
             {post.title}
           </h2>
         </a>
