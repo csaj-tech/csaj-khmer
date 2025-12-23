@@ -17,7 +17,7 @@ Source code for CSAJ Website
    ```
 2. move into folder `cd csaj-khmer`
 3. install dependencies `npm install`
-4. rename the .env file from `.env.example` to `.env.local`
+4. copy `.env.example` and create a new file called `.env.local`
 5. set the Notion API key inside `.env.local` (you need to get the key from Notion and Notion database)
 6. start development server `npm run dev`
 
