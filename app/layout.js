@@ -2,15 +2,22 @@ import "../styles/globals.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import QueryProvider from "../components/queryprovider";
+import { Open_Sans } from 'next/font/google'
 
 export const metadata = {
   title: "CSAJ",
   description: "CSAJ Khmer",
 };
 
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  weight: ['300', '400', '600', '700'],
+  display: 'swap',
+})
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={openSans.className}>
       <body>
         <QueryProvider>
           <div className="flex flex-col min-h-screen">
