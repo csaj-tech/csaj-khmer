@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         kantumruy: ["var(--font-kantumruy)"],
+        sans: ["var(--font-noto-khmer)", "system-ui", "sans-serif"],
       },
     },
   },

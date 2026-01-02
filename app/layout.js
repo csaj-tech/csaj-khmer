@@ -2,14 +2,14 @@ import "../styles/globals.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import QueryProvider from "../components/queryprovider";
-import {Noto_Sans_Khmer } from "next/font/google";
+import { Noto_Sans_Khmer } from "next/font/google";
 
-const font = Noto_Sans_Khmer({
-  subsets: ["latin"],
-  variable: "--font-lato",
-  weight: ["400", "700"],
+const notoKhmer = Noto_Sans_Khmer({
+  subsets: ["khmer"],
+  variable: "--font-noto-khmer",
   display: "swap",
 });
+
 
 
 export const metadata = {
@@ -19,8 +19,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${english.variable}`}>
-      <body className="font-sans">
+    <html lang="en" className={notoKhmer.variable}>
+      <body>
         <QueryProvider>
           <div className="flex flex-col min-h-screen">
             <Navbar />
