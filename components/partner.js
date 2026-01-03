@@ -10,7 +10,6 @@ const supporters_logos = [
 
 const sponsor_logos = [
   "/images/partners/sbi.png",
-  "/images/partners/bp.jpg",
   "/images/partners/citi_express.png",
   // Add more logos as needed
 ];
