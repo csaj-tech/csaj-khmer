@@ -139,11 +139,6 @@ const administrativeAndPublicRelationsCommittee = [
     },
     {
         position: "Member",
-        name: "Lun Sengnarong",
-        imageUrl: "/images/structures/2025/Lun_Sengnarong.jpg"
-    },
-    {
-        position: "Member",
         name: "Kroch Thavrak",
         imageUrl: "/images/structures/2025/Kroch_Thavrak.jpg"
     },
