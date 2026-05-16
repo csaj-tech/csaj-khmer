@@ -8,7 +8,7 @@ const supporters_logos = [
   // Add more logos as needed
 ];
 const principle_sponsor_logos = [
-  "/images/partners/sbi.jpg",
+  "/images/partners/sbi.JPG",
   // Add more logos as needed
 ];
 
