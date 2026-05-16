@@ -3,7 +3,7 @@
 import Layout from "../../components/layout";
 import MemberList from "../../components/memberlist";
 import Button from "../../components/button";
-import memberlist2025 from "../../data/members/2025";
+import memberlist2026 from "../../data/members/2026";
 
 const MISSION = {
   title: "Mission",
@@ -113,7 +113,7 @@ export default function About() {
         </div>
       </section>
 
-      <MemberList memberList={memberlist2025} />
+      <MemberList memberList={memberlist2026} />
       <div className="mt-10 mb-2">
         <Button href="/members" text="See Previous Years' Members" />
       </div>
