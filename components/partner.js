@@ -7,9 +7,12 @@ const supporters_logos = [
   "/images/partners/cjka.png",
   // Add more logos as needed
 ];
+const principle_sponsor_logos = [
+  "/images/partners/sbi.jpg",
+  // Add more logos as needed
+];
 
-const sponsor_logos = [
-  "/images/partners/sbi.png",
+const official_sponsor_logos = [
   "/images/partners/citi_express.png",
   // Add more logos as needed
 ];
@@ -28,8 +31,8 @@ export default function Partner() {
               <Image
                 src={logo}
                 alt={`Logo ${idx + 1}`}
-                width={200}
-                height={200}
+                width={150}
+                height={150}
               />
             </div>
           </div>
@@ -37,18 +40,37 @@ export default function Partner() {
       </div>
 
       <h1 className="mb-3 text-xl font-bold leading-tight text-center md:text-4xl font-sans text-blue-600">
-        Sponsored By
+        Principle Sponsor:
       </h1>
 
       <div className="flex flex-wrap justify-center">
-        {sponsor_logos.map((logo, idx) => (
+        {principle_sponsor_logos.map((logo, idx) => (
           <div key={idx} className="m-2 flex justify-center">
             <div className="p-4 flex items-center justify-center space-x-12 bg-white rounded-md">
               <Image
                 src={logo}
                 alt={`Logo ${idx + 1}`}
-                width={200}
-                height={200}
+                width={350}
+                height={350}
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h1 className="mb-3 text-xl font-bold leading-tight text-center md:text-4xl font-sans text-blue-600">
+        Official Sponsor:
+      </h1>
+
+      <div className="flex flex-wrap justify-center">
+        {official_sponsor_logos.map((logo, idx) => (
+          <div key={idx} className="m-2 flex justify-center">
+            <div className="p-4 flex items-center justify-center space-x-12 bg-white rounded-md">
+              <Image
+                src={logo}
+                alt={`Logo ${idx + 1}`}
+                width={300}
+                height={300}
               />
             </div>
           </div>
