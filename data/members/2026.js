@@ -33,7 +33,7 @@ const executiveCommittee = [
   {
     position: "Vice President",
     name: "CHHOUN Soksereymongkoul",
-    imageUrl: "/images/structures/2026/CHHOUN_Soksereymongkoul.jpeg"
+    imageUrl: "/images/structures/2026/CHHUON_Soksereymongkoul.jpeg"
   },
   {
     position: "Vice President",
