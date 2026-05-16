@@ -57,7 +57,7 @@ const executiveCommittee = [
   },
   {
     position: "Media and IT Lead",
-    name: "CHOEBNG Veyseng",
+    name: "CHOENG Veyseng",
     imageUrl: "/images/structures/2026/CHOENG_Veyseng.jpg"
   },
   {
