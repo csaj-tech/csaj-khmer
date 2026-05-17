@@ -2,7 +2,7 @@ const president = [
   {
     position: "President",
     name: "TE Meily",
-    imageUrl: "/images/structures/2026/Te_Meily.jpg"
+    imageUrl: "/images/structures/2026/TE_Meily.jpg"
   },
 ]
 
@@ -33,7 +33,7 @@ const executiveCommittee = [
   {
     position: "Vice President",
     name: "CHHOUN Soksereymongkoul",
-    imageUrl: "/images/structures/2026/Chhuon_Soksereymongkoul.jpeg"
+    imageUrl: "/images/structures/2026/CHHUON_Soksereymongkoul.jpeg"
   },
   {
     position: "Vice President",
@@ -57,7 +57,7 @@ const executiveCommittee = [
   },
   {
     position: "Media and IT Lead",
-    name: "CHOEBNG Veyseng",
+    name: "CHOENG Veyseng",
     imageUrl: "/images/structures/2026/CHOENG_Veyseng.jpg"
   },
   {
@@ -76,12 +76,12 @@ const advisoryBoard = [
   {
     position: "Advisor",
     name: "Yem Vibol",
-    imageUrl: "/images/structures/2026/Yem_Vibol.png"
+    imageUrl: "/images/structures/2026/YEM_Vibol.png"
   },
   {
     position: "Advisor",
     name: "Ouch Som Onn",
-    imageUrl: "/images/structures/2026/Ouch_Som_Onn.png"
+    imageUrl: "/images/structures/2026/OUCH_Som_Onn.png"
   },
   {
     position: "Advisor",
@@ -178,7 +178,7 @@ const culture = [
   {
     position: "Culture Lead",
     name: "WA Sophy",
-    imageUrl: "/images/structures/2026/WA_sophy.png"
+    imageUrl: "/images/structures/2026/WA_Sophy.png"
   },
   {
     position: "Culture Member",
@@ -269,12 +269,12 @@ const media = [
   {
     position: "Media Member",
     name: "LY Punlue",
-    imageUrl: "/images/structures/2026/LY_Punleu.png"
+    imageUrl: "/images/structures/2026/Ly_Punleu.png"
   },
   {
     position: "Media Member",
     name: "LY Daranin",
-    imageUrl: "/images/structures/2026/LY_daranin.jpg"
+    imageUrl: "/images/structures/2026/Ly_daranin.jpg"
   },
 ]
 
