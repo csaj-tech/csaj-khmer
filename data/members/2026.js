@@ -1,6 +1,6 @@
 const president = [
   {
-    position: "President",
+    position: "President of CSAJ and President of CSAK",
     name: "TE Meily",
     imageUrl: "/images/structures/2026/TE_Meily.jpg"
   },
@@ -8,22 +8,22 @@ const president = [
 
 const standingCommittee = [
   {
-    position: "Vice President",
+    position: "Vice President of CSAJ and President of KSAK",
     name: "IN Leavsovath",
     imageUrl: "/images/structures/2026/IN_Leavsovath.png"
   },
   {
-    position: "Vice President",
+    position: "Vice President of CSAJ and President of CSAH",
     name: "CHHENG Vichetra",
     imageUrl: "/images/structures/2026/CHHENG_Vichetra.png"
   },
   {
-    position: "Vice President",
+    position: "Vice President of CSAJ and President of ACSK",
     name: "CHEA Monyneath",
     imageUrl: "/images/structures/2026/CHEA_Monyneath.jpeg"
   },
   {
-    position: "Vice President",
+    position: "Vice President of CSAJ and President of CSAN",
     name: "VAT Namon",
     imageUrl: "/images/structures/2026/VAT_Namon.jpeg"
   },
@@ -31,12 +31,12 @@ const standingCommittee = [
 
 const executiveCommittee = [
   {
-    position: "Vice President",
+    position: "Vice President of CSAJ",
     name: "CHHUON Soksereymongkoul",
     imageUrl: "/images/structures/2026/CHHUON_Soksereymongkoul.jpeg"
   },
   {
-    position: "Vice President",
+    position: "Vice President of CSAJ",
     name: "LY Monivathana",
     imageUrl: "/images/structures/2026/LY_Vattana.jpg"
   },
