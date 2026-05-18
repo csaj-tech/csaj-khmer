@@ -268,7 +268,7 @@ const media = [
   },
   {
     position: "Media Member",
-    name: "LY Punlue",
+    name: "LY Punleu",
     imageUrl: "/images/structures/2026/Ly_Punleu.png"
   },
   {
