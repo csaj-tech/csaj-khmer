@@ -12,11 +12,6 @@ const principle_sponsor_logos = [
   // Add more logos as needed
 ];
 
-const official_sponsor_logos = [
-  "/images/partners/citi_express.png",
-  // Add more logos as needed
-];
-
 export default function Partner() {
   return (
     <div className="my-8">
@@ -52,25 +47,6 @@ export default function Partner() {
                 alt={`Logo ${idx + 1}`}
                 width={350}
                 height={350}
-              />
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <h1 className="mb-3 text-xl font-bold leading-tight text-center md:text-4xl font-sans text-blue-600">
-        Official Sponsor:
-      </h1>
-
-      <div className="flex flex-wrap justify-center">
-        {official_sponsor_logos.map((logo, idx) => (
-          <div key={idx} className="m-2 flex justify-center">
-            <div className="p-4 flex items-center justify-center space-x-12 bg-white rounded-md">
-              <Image
-                src={logo}
-                alt={`Logo ${idx + 1}`}
-                width={300}
-                height={300}
               />
             </div>
           </div>
